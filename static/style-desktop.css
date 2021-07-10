@@ -1,0 +1,9 @@
+/*Style Desktop Layout*/
+
+@media screen and (min-width: 1025px) {
+
+    body{
+        margin: 0
+    }
+
+}
