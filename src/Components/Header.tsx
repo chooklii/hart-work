@@ -13,7 +13,17 @@ const Header = (props: IProps) =>  {
 
     return (
       <div className="header">
-        TYPESCRIPT TEMPLATE
+        <div className="header-content">
+        <Link className="header-logo logo" to="/"></Link>
+
+        <div className="header-links">
+        <Link className="header-link button red fontBold" to="/">Startseite</Link>
+        <Link className="header-link button red fontBold" to="/physiotherapie">Physiotherapie</Link>
+        <Link className="header-link button red fontBold" to="/sporttherapie">Sporttherapie</Link>
+        <Link className="header-link button red fontBold" to="/philosophie">Philosophie</Link>
+        <Link className="header-link button red fontBold" to="/impressum">Impressum</Link>
+        </div>
+        </div>
       </div>
     );
   }

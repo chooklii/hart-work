@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'S721 Bold';
+    src: url('./S721BtBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'S721 Normal';
+    src: url('./S721BtNormal.ttf') format('truetype');
+}
+
+  @font-face {
+    font-family: 'S721 Ex BT';
+    src: url('./S721ExBt.ttf') format('truetype');
+} 
+
+.red{
+    color: #70231d;
+}
+
+.grey{
+    color: #5b5b5b
+}
+
+.fontBold{
+    font-family: "S721 Bold";
+}
+
+.fontNormal{
+    font-family: "S721 Normal";
+}
+
+.fontEx{
+    font-family: "S721 Ex BT";
+}
+
+.button{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.logo{
+    background-image: url("./logo.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.texticon{
+    margin-right: 5px;
+}
+
+.homeImage{
+    background-image: url("./sporttraining.jpg");
+}

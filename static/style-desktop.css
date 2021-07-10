@@ -6,4 +6,103 @@
         margin: 0
     }
 
+    .text{
+        font-size: 18px;
+    }
+    
+    .header-links{
+        text-align: right;
+        margin-right: 10%;
+        width: 70%;
+    }
+
+    .header-link{
+        padding: 1.5em;
+    }
+
+    .header-link:hover{
+        color: #b3392e
+    }
+
+    .header{
+        border-bottom: 1px solid #5b5b5b;
+        width: 100%;
+    }
+
+    .header-content{
+        padding-top: 1.5em;
+        padding-bottom: 1.5em;
+        width: 100%;
+        display: inline-flex;
+    }
+
+    .header-logo{
+        width: 30%;
+        margin:-15px;
+    }
+
+    .heading-image-element{
+        width: 100%;
+        max-height: 40%;
+    }
+
+    .heading-image{
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 70vh;
+        display: flex
+    }
+
+    .heading-image-box{
+      width: 40%;
+      height: 30%;
+      margin-top: 42vh;
+      margin-left: 10%;
+      border-radius: 20px;
+      background: rgba(255, 255, 255, 0.4);
+    }
+
+    .headingBox{
+        display: inline-flex
+    }
+
+    .imageHeading{
+        font-size: 30px;    
+    }
+
+    .heading{
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+
+
+    .textBox{
+        font-size: 30px;
+        margin-top: 0;
+    }
+
+    .hashtag{
+        font-size: 150px;
+        line-height: 150px;
+    }
+
+    .basicIcon{
+        font-size: 70px;
+    }
+
+    .basics{
+        margin-top: 2%;
+        height: 30vh;
+        width: 100%;
+        display: inline-flex
+    }
+
+    .singleBasic{
+        width: 30%;
+        margin-left: 2.5%;
+        text-align: center;
+    }
+
 }
