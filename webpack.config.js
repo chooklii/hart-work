@@ -4,6 +4,10 @@ const path = require("path");
 
 // add paths for subdomains here
 const paths  = [
+  "physiotherapie",
+  "sporttherapie",
+  "impressum",
+  "philosophie"
 ]
 
 let multipleHtmlPlugins = paths.map(name => {

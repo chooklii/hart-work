@@ -1,9 +1,13 @@
 import Header from "./Header"
-import HeadingImage from "./HeadingImage"
+import TopImage from "./TopImage"
 import Basics from "./Basics"
+import BottomImage from "./BottomImage"
+import Team from "./Team"
 
 export {
     Header,
-    HeadingImage,
-    Basics
+    TopImage,
+    Basics,
+    BottomImage,
+    Team
 }

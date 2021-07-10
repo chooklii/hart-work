@@ -3,7 +3,8 @@
 @media screen and (min-width: 1025px) {
 
     body{
-        margin: 0
+        margin: 0;
+        overflow-y: scroll;
     }
 
     .text{
@@ -55,6 +56,16 @@
         display: flex
     }
 
+    .bottom-image{
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 40vh;
+        display: flex
+    }
+
+
     .heading-image-box{
       width: 40%;
       height: 30%;
@@ -75,6 +86,10 @@
     .heading{
         margin-top: 10px;
         margin-bottom: 0;
+    }
+
+    .center{
+        text-align: center;
     }
 
 
@@ -103,6 +118,55 @@
         width: 30%;
         margin-left: 2.5%;
         text-align: center;
+    }
+
+    .singleMember{
+        width: 50%;
+    }
+
+    .team{
+        display: inline-flex;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .qualification{
+        margin-left: 15%;
+        line-height: 1.5;
+    }
+
+    .qualificationheading{
+        margin-left: 10%;
+    }
+
+    .team_general{
+        min-height: 60px;
+    }
+
+    .subheading{
+        font-size: 30px;
+    }
+
+    .thirdheading{
+        font-size: 25px;
+    }
+
+    .iconPhysio{
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 80px;
+        height: 80px;
+        display: inline-block;
+    }
+
+    .singleOptionPhysio{
+        width: 25%;
+        padding: 1em;
+        text-align: center;
+    }
+
+    .row{
     }
 
 }

@@ -8,7 +8,7 @@ interface IProps {
     additionaltitle?: string
 }
 
-const HeadingImage = (props: IProps) => {
+const TopImage = (props: IProps) => {
     const imageClassName = "heading-image " + props.imageName
     return (
         <div className={imageClassName}>
@@ -33,4 +33,4 @@ const HeadingImage = (props: IProps) => {
     )
 }
 
-export default HeadingImage
+export default TopImage

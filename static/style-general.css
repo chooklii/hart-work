@@ -56,3 +56,60 @@
 .homeImage{
     background-image: url("./sporttraining.jpg");
 }
+
+.homeBottomImage{
+    background-image: url("./kurs1.jpg")
+}
+
+.physio_top{
+    background-image: url("./physio.jpg");
+}
+
+.physio_bottom{
+    background-image: url("./physio1.jpg");
+}
+
+
+.publicMassage{
+    background-image: url("./icons/massage.png");
+}
+
+.lymph{
+    background-image: url("./icons/lymph.png");
+}
+
+.privatMassage{
+    background-image: url("./icons/privatMassage.png");
+}
+
+.tape{
+    background-image: url("./icons/tape.png");
+}
+
+.klettern{
+    background-image: url("./icons/klettern.png");
+}
+
+.pravention{
+    background-image: url("./icons/pravention.png");
+}
+
+.gymnastik{
+    background-image: url("icons/gymnastik.png");
+}
+
+.therapie{
+    background-image: url("icons/therapie.png");
+}
+
+.krankengymnastik{
+    background-image: url("icons/krankengymnastik.png");
+}
+
+.kgg{
+    background-image: url("icons/kgg.png");
+}
+
+.reflex{
+    background-image: url("icons/reflex.png");
+}
