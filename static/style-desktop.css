@@ -25,6 +25,22 @@
         color: #b3392e
     }
 
+    .footer-link:hover{
+        color: #b3392e
+    }
+
+    .link:hover{
+        color: #b3392e
+    }
+
+    .mapslink:hover{
+        color: #b3392e
+    }
+
+    .icon_social:hover{
+        color: #b3392e
+    }
+
     .header{
         border-bottom: 1px solid #5b5b5b;
         width: 100%;
@@ -165,6 +181,15 @@
         display: inline-block;
     }
 
+    .iconImprint{
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 40px;
+        height: 40px;
+        display: inline-block;  
+    }
+
     .singleOptionPhysio{
         width: 25%;
         padding: 1em;
@@ -242,5 +267,17 @@
     .imprint{
         width: 80%;
         margin-left: 10%;
+    }
+
+    .opening_days{
+        min-width: 100px;
+    }
+
+    .opening{
+        margin-left: 30%;
+    }
+
+    .imprintfloat{
+        margin-left: 5%;
     }
 }
