@@ -7,7 +7,7 @@ import PhysioPricing from "./PhysioPricing"
 import PhysioOptions from "./PhysioOptions"
 import SportOptions from "./SportOptions"
 import SportPricing from "./SportPrcing"
-
+import Footer from "./Footer"
 
 export {
     Header,
@@ -18,5 +18,6 @@ export {
     PhysioPricing,
     PhysioOptions,
     SportOptions,
-    SportPricing
+    SportPricing,
+    Footer
 }

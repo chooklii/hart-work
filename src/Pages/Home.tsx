@@ -1,5 +1,6 @@
+
 import React from "react"
-import { Basics, Header, TopImage, BottomImage, Team} from "../Components"
+import { Basics, Header, TopImage, BottomImage, Team, Footer} from "../Components"
 
 const Home = () => {
     return(
@@ -16,7 +17,7 @@ const Home = () => {
                 imageName= "homeBottomImage"
             />
             <Team/>
-
+            <Footer/>
 
         </div>
     )

@@ -1,5 +1,5 @@
 import React from "react"
-import { Header, TopImage, BottomImage, SportOptions, SportPricing} from "../Components"
+import { Header, TopImage, BottomImage, SportOptions, SportPricing, Footer} from "../Components"
 
 const Sporttherapie = () => {
     return(
@@ -17,6 +17,7 @@ const Sporttherapie = () => {
                 imageName="sport_bottom"
             />
             <SportPricing/>
+            <Footer/>
         </div>
     )
 }

@@ -1,4 +1,4 @@
-import React, { ReactFragment, ReactText, useEffect, useState } from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 interface IProps{}
@@ -21,7 +21,6 @@ const Header = (props: IProps) =>  {
         <Link className="header-link button red fontBold" to="/physiotherapie">Physiotherapie</Link>
         <Link className="header-link button red fontBold" to="/sporttherapie">Sporttherapie</Link>
         <Link className="header-link button red fontBold" to="/philosophie">Philosophie</Link>
-        <Link className="header-link button red fontBold" to="/impressum">Impressum</Link>
         </div>
         </div>
       </div>

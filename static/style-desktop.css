@@ -28,6 +28,7 @@
     .header{
         border-bottom: 1px solid #5b5b5b;
         width: 100%;
+        min-height: 7vh;
     }
 
     .header-content{
@@ -192,5 +193,54 @@
 
     .inlinetext{
         margin-right: 5%;
+    }
+
+    .footer{
+        border-top: 1px solid #5b5b5b;
+    }
+
+    .footer-links{
+        text-align: right;
+        width: 100%;
+    }
+
+    .footer-link{
+        padding: 1.5em;
+    }
+
+    .footer-link:hover{
+        color: #b3392e
+    }
+
+    .footer{
+        width: 100%;
+        margin-top: 2vh;
+        min-height: 7vh;
+    }
+
+    .footer-content{
+        padding-top: 1.5em;
+        padding-bottom: 1.5em;
+        width: 100%;
+        display: inline-flex;
+    }
+
+    .content{
+        min-height: 82vh;
+    }
+
+    .icon_social{
+        font-size: 25px;
+        margin-left: .5em;
+    }
+
+    .socialmedia{
+        margin-left: 5em;
+        display: inline-flex;
+    }
+
+    .imprint{
+        width: 80%;
+        margin-left: 10%;
     }
 }

@@ -1,5 +1,5 @@
 import React from "react"
-import { Header, TopImage, BottomImage, PhysioPricing, PhysioOptions} from "../Components"
+import { Header, TopImage, BottomImage, PhysioPricing, PhysioOptions, Footer} from "../Components"
 
 
 const Physiotherapie = () => {
@@ -18,6 +18,7 @@ const Physiotherapie = () => {
                 imageName="physio_bottom"
             />
             <PhysioPricing/>
+            <Footer/>
         </div>
     )
 }

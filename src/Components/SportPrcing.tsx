@@ -87,7 +87,7 @@ const renderPricing = (): ReactFragment => {
                 <p>
                 {single.services.map(service => {
                     return(
-                        <li className="grey fontNormal floatingservices">{service}</li>
+                        <li key={keyGenerator()} className="grey fontNormal floatingservices">{service}</li>
                     )
                 })}
                 </p>
