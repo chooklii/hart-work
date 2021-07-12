@@ -10,7 +10,7 @@ const Basics = () => {
                 <h2 className="red fontBold">Standort</h2>
                 <p className="grey fontNormal text">Max-Eyth-Straße 36, 74632 Neuenstein</p>
                 <p className="grey fontNormal text">
-                    <a className="grey" target="_blank" href="https://www.google.de/maps/@49.2127037,9.5938756,177m/data=!3m1!1e3?hl=de">auf Google Maps anzeigen</a>
+                    <a className="grey underline" target="_blank" href="https://www.google.de/maps/@49.2127037,9.5938756,177m/data=!3m1!1e3?hl=de">auf Google Maps anzeigen</a>
                 </p>
 
             </div>
@@ -18,7 +18,10 @@ const Basics = () => {
             <div className="singleBasic">
                 <FontAwesomeIcon className="basicIcon red" icon={faHome} />
                 <h2 className="red fontBold">Öffnungszeiten</h2>
-                <p className="grey fontNormal text">Montag - Freitag: 8 - 19 Uhr</p>
+                <div>
+                <p className="grey fontNormal text opening">Mo - Do: 7 - 18 Uhr</p>
+                <p className="grey fontNormal text opening">Freitag: 7 - 15:30 Uhr</p>
+                </div>
                 <p className="grey fontNormal text">individuelle Termine nach persönlicher Absprache</p>
             </div>
 

@@ -1,4 +1,4 @@
-import React, { ReactFragment } from "react"
+import React, { ReactFragment, ReactText } from "react"
 
 interface TeamInfos {
     name: string,
@@ -6,6 +6,10 @@ interface TeamInfos {
     qualifications: string[]
 
 }
+
+const keyGenerator = (): ReactText =>
+  "_" + Math.random().toString(36).substr(2, 9);
+
 
 const team: TeamInfos[] = [{
     name: "Madeleine Perner",
@@ -49,14 +53,14 @@ const renderMember = (): ReactFragment => {
                 <div className="team_general">
                 {member.general.map(single => {
                     return(
-                        <p className="grey fontNormal qualificationheading">{single}</p>
+                        <p key={keyGenerator()} className="grey fontNormal qualificationheading">{single}</p>
                     )
                 })}
                 </div>
                 <h3 className="red fontBold qualificationheading">Qualifikationen</h3>
                 {member.qualifications.map(single => {
                     return(
-                        <li className="grey fontNormal qualification">{single}</li>
+                        <li key={keyGenerator()} className="grey fontNormal qualification">{single}</li>
                     )
                 })}
             </div>

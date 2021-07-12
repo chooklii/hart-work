@@ -1,6 +1,6 @@
 import React from "react"
-import { Header, TopImage, BottomImage, Team} from "../Components"
-import PhysioOptions from "../Components/PhysioOptions"
+import { Header, TopImage, BottomImage, PhysioPricing, PhysioOptions} from "../Components"
+
 
 const Physiotherapie = () => {
     return(
@@ -10,13 +10,14 @@ const Physiotherapie = () => {
                 imageName="physio_top"
                 title="Physio"
                 additionaltitle="therapie"
-                text="Behandlung um evtl. körperliche Beschwerden vorzubeugen"
+                text="Krasser Slogan"
                 />
 
             <PhysioOptions/>
             <BottomImage
                 imageName="physio_bottom"
             />
+            <PhysioPricing/>
         </div>
     )
 }

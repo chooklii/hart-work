@@ -69,6 +69,13 @@
     background-image: url("./physio1.jpg");
 }
 
+.sport_top{
+    background-image: url("./sport_top.jpg");
+}
+
+.sport_bottom{
+    background-image: url("./sport_bottom.jpg");
+}
 
 .publicMassage{
     background-image: url("./icons/massage.png");
@@ -112,4 +119,33 @@
 
 .reflex{
     background-image: url("icons/reflex.png");
+}
+
+.ems{
+    background-image: url("icons/ems.png");
+}
+
+.gruppe{
+    background-image: url("icons/gruppe.png");
+}
+
+.duo{
+    background-image: url("icons/duo.png");
+}
+
+.solo{
+    background-image: url("icons/solo.png");
+}
+
+.center{
+    text-align: center;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.inline{
+    display: inline-flex;
+    width: 100%;
 }

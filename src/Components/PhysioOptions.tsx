@@ -85,13 +85,13 @@ const renderPrivateOptions = (): ReactFragment => {
 const PhysioOptions = () => {
     return(
         <div>
-            <h2 className="red fontBold subheading">Was bieten wir an</h2>
-            <h3 className="red fontBold thirdheading">Privat / Gesetzlich / Berufsgenossenschaft:</h3>
+            <h2 className="red fontBold subheading center">Was bieten wir an</h2>
+            <h3 className="red fontBold thirdheading floatingheading">Privat / Gesetzlich / Berufsgenossenschaft:</h3>
             <Row className="row">
                 {renderPublicOptions()}
             </Row>
 
-            <h3 className="red fontBold thirdheading">Selbstzahler:</h3>
+            <h3 className="red fontBold thirdheading floatingheading">Selbstzahler:</h3>
             <Row className="row">
                 {renderPrivateOptions()}
             </Row>
