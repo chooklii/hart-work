@@ -65,8 +65,8 @@ const iconInfos: Option[] = [
         icon: "publicMassage"
     },
     {
-        ref: "https://www.freepik.com",
-        name: "Freepik",
+        ref: "https://www.flaticon.com/de/autoren/anatoly",
+        name: "Anatoly",
         icon: "krankengymnastik"
     },
     {
