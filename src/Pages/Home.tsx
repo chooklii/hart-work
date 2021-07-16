@@ -8,9 +8,9 @@ const Home = () => {
             <Header/>
             <TopImage
                 imageName = "homeImage"
-                title = "HART"
-                additionaltitle="WORK"
-                text = "Physiotherapie Neuenstein"
+                title = "Physiotherapie & Personaltraining"
+                additionaltitle=""
+                text = ""
             />
             <Basics/>
             <BottomImage
