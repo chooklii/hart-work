@@ -38,7 +38,7 @@ const privateOption: Option[] = [
         icon: "privatMassage"
     },
     {
-        name: "KGG",
+        name: "Krankengymnastik am Gerät",
         icon: "kgg"
     },
     {

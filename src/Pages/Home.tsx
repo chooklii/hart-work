@@ -10,7 +10,7 @@ const Home = () => {
                 imageName = "homeImage"
                 title = "HART"
                 additionaltitle="WORK"
-                text = "Fit sein mit dem Profi"
+                text = "Physiotherapie Neuenstein"
             />
             <Basics/>
             <BottomImage

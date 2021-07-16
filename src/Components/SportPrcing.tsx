@@ -22,7 +22,8 @@ const sportOptions: Options[] = [
         name: "Training mit einer Person",
         services: [
             "Eingehen auf individuelle Bedürfnisse",
-            "Modernes Training an hochwertigen Geräten (EMS-Training)"
+            "Modernes Training an hochwertigen Geräten",
+            "EMS-Training"
         ],
         halfPrice: 50,
         halfTime: 30,
@@ -33,7 +34,7 @@ const sportOptions: Options[] = [
         name: "Training zu zweit",
         services: [
             "Eingehen auf beide Bedürfnisse",
-            "Modernes Training an hochwertigen Geräten (EMS-Training)"
+            "Modernes Training an hochwertigen Geräten"
         ],
         halfPrice: 35,
         halfTime: 30,
@@ -44,7 +45,7 @@ const sportOptions: Options[] = [
         name: "Training mit 3-4 Personen",
         services: [
             "Eingehen auf eure Bedürfnisse",
-            "Modernes Training an hochwertigen Geräten (EMS-Training)"
+            "Modernes Training an hochwertigen Geräten"
         ],
         halfPrice: 25,
         halfTime: 30,
@@ -66,7 +67,7 @@ const renderPricing = (): ReactFragment => {
                     </p>
                     <p className="grey fontNormal floatingtext">
                         <FontAwesomeIcon className="grey fontNormal texticon" icon={faTag} />
-                        {single.halfPrice}€
+                        {single.halfPrice}€ p.P.
                     </p>
                     </Col>
                     <Col xl={12} xxl={12} lg={12} md={12} sm={12} xs={24}>
@@ -76,7 +77,7 @@ const renderPricing = (): ReactFragment => {
                     </p>
                     <p className="grey fontNormal floatingtext">
                         <FontAwesomeIcon className="grey fontNormal texticon" icon={faTag} />
-                        {single.fullPrice}€
+                        {single.fullPrice}€ p.P.
                     </p>
                     </Col>
                 </Row>
@@ -98,8 +99,8 @@ const renderPricing = (): ReactFragment => {
 
 const SportPricing = () => {
     return (
-        <div className="pricing">
-            <h2 className="red fontBold subheading center">Preise</h2>
+        <div className="pricing marginFooter">
+            <h2 className="red fontBold subheading center margin50 pricesize">Preise</h2>
             <Row>
                 {renderPricing()}
             </Row>

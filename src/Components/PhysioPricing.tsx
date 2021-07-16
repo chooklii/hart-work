@@ -25,9 +25,9 @@ const renderPricing = (): ReactFragment => {
 
 const PhysioPricing = () => {
     return (
-        <div className="pricing">
+        <div className="pricing marginFooter">
             <h2 className="red fontBold subheading center">Preise</h2>
-            <p className="grey fontNormal center">Behandlungen um evtl. körperliche Beschwerden vorzubeugen</p>
+            <p className="grey fontNormal center">Behandlungskosten (um evtl. körperliche Beschwerden vorzubeugen)</p>
             {renderPricing()}
         </div>
     )

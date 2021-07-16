@@ -121,6 +121,7 @@
     .hashtag{
         font-size: 150px;
         line-height: 150px;
+        margin-left: 10px;
     }
 
     .basicIcon{
@@ -279,5 +280,18 @@
 
     .imprintfloat{
         margin-left: 5%;
+    }
+
+    .marginFooter{
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+
+    .margin50{
+        margin-bottom: 50px;
+    }
+
+    .pricesize{
+        font-size: 40px;
     }
 }
