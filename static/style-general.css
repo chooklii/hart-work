@@ -13,12 +13,24 @@
     src: url('./S721ExBt.ttf') format('truetype');
 } 
 
+body{
+    margin: 0
+}
+
 .red{
     color: #70231d;
 }
 
 .grey{
     color: #5b5b5b
+}
+
+.burger{
+    background: url("../static/toggle.svg")
+}
+
+.white{
+    color: white
 }
 
 .fontBold{
@@ -51,6 +63,14 @@
 
 .texticon{
     margin-right: 5px;
+}
+
+.stefan{
+    background-image: url("./stefan.jpg")
+}
+
+.madeleine{
+    background-image: url("./madeleine.jpg")
 }
 
 .homeImage{

@@ -8,6 +8,7 @@ import PhysioOptions from "./PhysioOptions"
 import SportOptions from "./SportOptions"
 import SportPricing from "./SportPrcing"
 import Footer from "./Footer"
+import HomeCarousel from "./HomeCarousel"
 
 export {
     Header,
@@ -19,5 +20,6 @@ export {
     PhysioOptions,
     SportOptions,
     SportPricing,
-    Footer
+    Footer,
+    HomeCarousel
 }

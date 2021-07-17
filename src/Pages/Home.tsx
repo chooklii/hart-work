@@ -1,17 +1,12 @@
 
 import React from "react"
-import { Basics, Header, TopImage, BottomImage, Team, Footer} from "../Components"
+import { Basics, Header, TopImage, BottomImage, Team, Footer, HomeCarousel} from "../Components"
 
 const Home = () => {
     return(
         <div>
             <Header/>
-            <TopImage
-                imageName = "homeImage"
-                title = "Physiotherapie & Personaltraining"
-                additionaltitle=""
-                text = ""
-            />
+            <HomeCarousel/>
             <Basics/>
             <BottomImage
                 imageName= "homeBottomImage"

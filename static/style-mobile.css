@@ -2,8 +2,39 @@
 
 @media screen and (max-width: 480px) {
 
-    body{
-        margin: 0
+    .headline{
+        width: 100%;
+        height: 3em;
+        position: fixed;
+        top: 0;
+        background-color: #5b5b5b;
+        border-bottom: 1px solid black;
+        z-index: 10000;
     }
 
+    .desktop{
+        display: none
+    }
+
+    .header-mobile-span{
+        cursor: pointer;
+        position: absolute;
+        height: 3em;
+        width: 20%;
+        top: 0;
+        left: 0
+    }
+
+    .header-link{
+        padding: 1em
+    }
+
+    .socialmedia{
+        margin-top: 10%
+    }
+    
+    .icon_social{
+        font-size: 25px;
+        margin-left: .5em;
+    }
 }

@@ -2,6 +2,7 @@ import React, { ReactFragment, ReactText } from "react"
 
 interface TeamInfos {
     name: string,
+    image: string,
     general: string[]
     qualifications: string[]
 
@@ -13,6 +14,7 @@ const keyGenerator = (): ReactText =>
 
 const team: TeamInfos[] = [{
     name: "Madeleine Perner",
+    image: "madeleine",
     general: [
         "Sporttherapeutin (Berufskolleg Waldenburg)",
         "Physiotherapeutin (Berufskolleg Waldenburg)"
@@ -28,6 +30,7 @@ const team: TeamInfos[] = [{
     ]
 }, {
     name: "Stefan Kramer",
+    image: "stefan",
     general: [
         "Physiotherapeut (Berufskolleg Waldenburg)",
     ],
@@ -48,8 +51,9 @@ const team: TeamInfos[] = [{
 const renderMember = (): ReactFragment => {
     return team.map((member: TeamInfos) => {
         return(
-            <div className="singleMember">
+            <div key={keyGenerator()} className="singleMember">
                 <h2 className="red fontBold center subheading">#{member.name}</h2>
+                <div className={"teamimage " + member.image}/>
                 <div className="team_general">
                 {member.general.map(single => {
                     return(

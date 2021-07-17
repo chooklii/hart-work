@@ -18,8 +18,8 @@ const Basics = () => {
             <div className="singleBasic">
                 <FontAwesomeIcon className="basicIcon red" icon={faHome} />
                 <h2 className="red fontBold">Öffnungszeiten</h2>
-                <p className="grey fontNormal text opening inline"><div className="opening_days">Mo - Do:</div> 7 - 18 Uhr</p>
-                <p className="grey fontNormal text opening inline"><div className="opening_days">Freitag:</div> 7 - 15:30 Uhr</p>
+                <p className="grey fontNormal text opening inline"><span className="opening_days">Mo - Do:</span> 7 - 18 Uhr</p>
+                <p className="grey fontNormal text opening inline"><span className="opening_days">Freitag:</span> 7 - 15:30 Uhr</p>
                 <p className="grey fontNormal text">individuelle Termine nach persönlicher Absprache</p>
             </div>
 
