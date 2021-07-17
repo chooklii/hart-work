@@ -61,36 +61,40 @@ const renderPricing = (): ReactFragment => {
                 <h3 className="red fontBold center thirdheading">{single.name}</h3>
                 <Row>
                     <Col xl={12} xxl={12} lg={12} md={12} sm={12} xs={24}>
-                    <p className="grey fontNormal floatingtext">
-                        <FontAwesomeIcon className="grey fontNormal texticon" icon={faClock} />
-                        {single.halfTime} Minuten
-                    </p>
-                    <p className="grey fontNormal floatingtext">
-                        <FontAwesomeIcon className="grey fontNormal texticon" icon={faTag} />
-                        {single.halfPrice}€ p.P.
-                    </p>
+                        <div className="inline-col">
+                            <p className="grey fontNormal floatingtext">
+                                <FontAwesomeIcon className="grey fontNormal texticon" icon={faClock} />
+                                {single.halfTime} Minuten
+                            </p>
+                            <p className="grey fontNormal floatingtext">
+                                <FontAwesomeIcon className="grey fontNormal texticon" icon={faTag} />
+                                {single.halfPrice}€ p.P.
+                            </p>
+                        </div>
                     </Col>
                     <Col xl={12} xxl={12} lg={12} md={12} sm={12} xs={24}>
-                    <p className="grey fontNormal floatingtext">
-                        <FontAwesomeIcon className="grey fontNormal texticon" icon={faClock} />
-                        {single.fullTime} Minuten
-                    </p>
-                    <p className="grey fontNormal floatingtext">
-                        <FontAwesomeIcon className="grey fontNormal texticon" icon={faTag} />
-                        {single.fullPrice}€ p.P.
-                    </p>
+                        <div className="inline-col">
+                            <p className="grey fontNormal floatingtext">
+                                <FontAwesomeIcon className="grey fontNormal texticon" icon={faClock} />
+                                {single.fullTime} Minuten
+                            </p>
+                            <p className="grey fontNormal floatingtext">
+                                <FontAwesomeIcon className="grey fontNormal texticon" icon={faTag} />
+                                {single.fullPrice}€ p.P.
+                            </p>
+                        </div>
                     </Col>
                 </Row>
                 <p className="grey fontNormal services">
-                <FontAwesomeIcon className="grey fontNormal texticon" icon={faDumbbell} />
-                Leistungen:
+                    <FontAwesomeIcon className="grey fontNormal texticon" icon={faDumbbell} />
+                    Leistungen:
                 </p>
                 <p>
-                {single.services.map(service => {
-                    return(
-                        <li key={keyGenerator()} className="grey fontNormal floatingservices">{service}</li>
-                    )
-                })}
+                    {single.services.map(service => {
+                        return (
+                            <li key={keyGenerator()} className="grey fontNormal floatingservices">{service}</li>
+                        )
+                    })}
                 </p>
             </Col>
         )

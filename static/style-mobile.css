@@ -39,6 +39,163 @@
     }
 
     .content{
-        padding-top: 3.5em;
+        padding-top: 3em;
+        padding-bottom: 3em;
+    }
+
+    .heading-image{
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 30vh;
+        display: flex;
+        border-bottom: 1px solid #5b5b5b;
+    }
+
+    .bottom-image{
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 30vh;
+        display: flex;
+        border-bottom: 1px solid #5b5b5b;
+        border-top: 1px solid #5b5b5b;
+    }
+
+    .hashtag{
+        font-size: 100px;
+        line-height: 150px;
+        margin-left: 10px;
+    }
+
+    .basicIcon{
+        font-size: 50px;
+    }
+
+    .basics{
+        margin-top: 2%;
+        width: 100%;
+    }
+
+    .singleBasic{
+        width: 100%;
+        text-align: center;
+    }
+
+    .opening{
+        margin-left: 30%;
+    }
+
+    .qualificationheading{
+        margin-left: 10%;
+    }
+
+    .qualification{
+        margin-left: 15%;
+    }
+
+    .singleMember{
+        margin-top: 50px
+    }
+
+    .teamimage{
+        width: 150px;
+        height: 150px;
+        border-radius: 75px;
+        margin-bottom: 25px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .thirdheading{
+        margin-left: 10%;
+    }
+
+    .iconPhysio{
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 60px;
+        height: 60px;
+        display: inline-block;
+    }
+
+    .singleOptionPhysio{
+        width: 25%;
+        padding: 1em;
+        text-align: center;
+    }
+
+    .thirdheading{
+        font-size: 20px;
+    }
+
+    .subheading{
+        font-size: 30px;
+        margin-top: 10px;
+    }
+
+    .inlinetext{
+        margin-right: 5%;
+    }
+
+    .inline-col{
+        display: inline-flex;
+        width: 100%;
+    }
+
+    .floatingtext{
+        margin-left: 10%;
+        margin-top: 15px;
+        width: 40%;
+    }
+
+    .services{
+        text-align: center;
+    }
+
+    .floatingservices{
+        margin-left: 10%;
+    }
+
+    .philosophie{
+        margin-left: 10%;
+        width: 80%;
+        line-height: 2;
+    }
+
+    .imprint{
+        margin-left: 10%;
+        width: 80%;
+        line-height: 2;
+    }
+
+    .imprintfloat{
+        margin-left: 5%;
+    }
+
+    .iconImprint{
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 40px;
+        height: 40px;
+        display: inline-block;  
+    }
+
+    .header-logo{
+        width: 100px;
+        height: 100px;
+    }
+
+    .companyName{
+        position: absolute; 
+        bottom: 0;
     }
 }

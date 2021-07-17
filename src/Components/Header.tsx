@@ -36,6 +36,8 @@ const Header = () => {
             </a>
           </div>
 
+          <h3 className="white companyName mobile fontBold floatingheading">#HART<span className="fontEx">WORK</span></h3>
+
         </Menu>
 
         <h2 className="white fontBold center">#HARTWORK</h2>
