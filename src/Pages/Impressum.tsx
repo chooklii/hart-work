@@ -109,7 +109,7 @@ const renderIconImprint = (): ReactFragment => {
 
 const Impressum = () => {
     return (
-        <div>
+        <div >
             <Header />
             <div className="content imprint">
                 <h1 className="red fontBold center">Impressum</h1>

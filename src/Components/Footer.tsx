@@ -7,7 +7,7 @@ import { faFacebookSquare, faInstagramSquare } from "@fortawesome/free-brands-sv
 const Footer = () =>  {
 
     return (
-      <div className="footer">
+      <div className="footer desktop">
         <div className="footer-content">
         <h3 className="red fontBold floatingheading">#HART<span className="fontEx">WORK</span></h3>
         <div className="socialmedia">

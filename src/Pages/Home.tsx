@@ -6,12 +6,14 @@ const Home = () => {
     return(
         <div>
             <Header/>
+            <div className="content">
             <HomeCarousel/>
             <Basics/>
             <BottomImage
                 imageName= "homeBottomImage"
             />
             <Team/>
+            </div>
             <Footer/>
 
         </div>

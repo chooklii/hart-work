@@ -6,6 +6,7 @@ const Physiotherapie = () => {
     return(
         <div>
             <Header/>
+            <div className="content">
             <TopImage
                 imageName="physio_top"
                 title="Physio"
@@ -18,6 +19,7 @@ const Physiotherapie = () => {
                 imageName="physio_bottom"
             />
             <PhysioPricing/>
+            </div>
             <Footer/>
         </div>
     )

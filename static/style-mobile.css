@@ -37,4 +37,8 @@
         font-size: 25px;
         margin-left: .5em;
     }
+
+    .content{
+        padding-top: 3.5em;
+    }
 }
