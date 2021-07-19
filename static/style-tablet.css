@@ -119,10 +119,6 @@
         text-align: center;
     }
 
-    .fontNormal{
-        font-size: larger;
-    }
-
     .opening{
         margin-left: 40%;
     }
@@ -133,16 +129,10 @@
 
     .qualificationheading{
         margin-left: 15%;
-        font-size: larger;
     }
 
     .qualification{
-        font-size: larger;
         margin-left: 25%;
-    }
-
-    .text{
-        font-size: larger;
     }
 
     .singleMember{
