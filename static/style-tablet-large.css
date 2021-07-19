@@ -37,7 +37,7 @@
     }
 
     .header-link{
-        padding: 2em;
+        padding: 1em;
         font-size: large;
     }
 
@@ -121,10 +121,6 @@
         text-align: center;
     }
 
-    .fontNormal{
-        font-size: large;
-    }
-
     .opening{
         margin-left: 40%;
     }
@@ -144,7 +140,6 @@
     }
 
     .text{
-        font-size: large;
     }
 
     .singleMember{
@@ -254,4 +249,13 @@
         position: absolute; 
         bottom: 0;
     }
+}
+
+
+@media screen and (max-width: 1200px) and (min-width: 768px) and (orientation : landscape)  {
+
+    .heading-image{
+        height: 40vh;
+    }
+
 }

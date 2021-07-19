@@ -981,6 +981,14 @@ body{
     }
 }
 
+@media screen and (max-width: 768px) and (min-width: 481px) and (orientation : landscape)  {
+
+    .heading-image{
+        height: 50vh;
+    }
+
+}
+
 /*Style Tablet Layout*/
 
 @media screen and (max-width: 1200px) and (min-width: 768px) {
@@ -1020,7 +1028,7 @@ body{
     }
 
     .header-link{
-        padding: 2em;
+        padding: 1em;
         font-size: large;
     }
 
@@ -1104,10 +1112,6 @@ body{
         text-align: center;
     }
 
-    .fontNormal{
-        font-size: large;
-    }
-
     .opening{
         margin-left: 40%;
     }
@@ -1127,7 +1131,6 @@ body{
     }
 
     .text{
-        font-size: large;
     }
 
     .singleMember{
@@ -1237,6 +1240,15 @@ body{
         position: absolute; 
         bottom: 0;
     }
+}
+
+
+@media screen and (max-width: 1200px) and (min-width: 768px) and (orientation : landscape)  {
+
+    .heading-image{
+        height: 40vh;
+    }
+
 }
 /* Position and sizing of burger button */
 .bm-burger-button {
