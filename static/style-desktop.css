@@ -329,4 +329,8 @@
         line-height: 2;
         margin-left: 5%;
     }
+
+    .carousel-link-desktop{
+        cursor: pointer;
+    }
 }

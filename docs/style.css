@@ -393,6 +393,10 @@ body{
         position: absolute; 
         bottom: 0;
     }
+
+    .carousel-link-mobile{
+        cursor: pointer;
+    }
 }
 
 /*Style Desktop Layout*/
@@ -726,6 +730,10 @@ body{
         line-height: 2;
         margin-left: 5%;
     }
+
+    .carousel-link-desktop{
+        cursor: pointer;
+    }
 }
 
 /*Style Tablet Layout*/
@@ -972,6 +980,10 @@ body{
         position: absolute; 
         bottom: 0;
     }
+
+    .carousel-link-mobile{
+        cursor: pointer;
+    }
 }
 
 @media screen and (max-width: 768px) and (min-width: 481px) and (orientation : landscape)  {
@@ -984,7 +996,7 @@ body{
 
 /*Style Tablet Layout*/
 
-@media screen and (max-width: 1200px) and (min-width: 768px) {
+@media screen and (max-width: 1199px) and (min-width: 768px) {
 
     body{
         margin: 0
@@ -1231,10 +1243,14 @@ body{
         position: absolute; 
         bottom: 0;
     }
+
+    .carousel-link-mobile{
+        cursor: pointer;
+    }
 }
 
 
-@media screen and (max-width: 1200px) and (min-width: 768px) and (orientation : landscape)  {
+@media screen and (max-width: 1199px) and (min-width: 768px) and (orientation : landscape)  {
 
     .heading-image{
         height: 40vh;

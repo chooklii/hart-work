@@ -5,7 +5,7 @@ import { Carousel } from "antd"
 
 const HomeCarousel = () => {
     return(
-        <Carousel autoplay effect="fade">
+        <Carousel  effect="fade">
             <TopImage
                 imageName = "homeImage"
                 title = "Physiotherapie & Personaltraining"
@@ -16,6 +16,8 @@ const HomeCarousel = () => {
                 imageName = "homeImage"
                 title = "HARDOPENING"
                 additionaltitle=""
+                link={true}
+                url="https://bzenth.de/"
                 text = "Tag der offenen Tür am 21.08"
             />
 

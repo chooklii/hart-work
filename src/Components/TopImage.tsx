@@ -5,16 +5,22 @@ import { faHashtag } from "@fortawesome/free-solid-svg-icons";
 interface IProps {
     imageName: string,
     title: string,
+    link?: boolean,
+    url?: string,
     text: string,
     additionaltitle?: string
 }
 
 const TopImage = (props: IProps) => {
     const imageClassName = "heading-image " + props.imageName
+    const desktopLink = props.link ? "carousel-link-desktop" : ""
+    const mobileLink = props.link ? "carousel-link-mobile" : ""
+    const hasLink = props.link ? "underline" : ""
+    const headerShown = window.innerWidth >= 1200 ? true : false
     return (
         <div>
-            <div className={imageClassName}>
-                <div className="heading-image-box">
+            <div onClick={(!headerShown && props.link) ? () => window.open(props.url, '_blank') : null } className={imageClassName + " " + mobileLink}>
+                <div onClick={(headerShown && props.link) ? () => window.open(props.url, '_blank') : undefined } className={"heading-image-box " + desktopLink}>
                     <div className="headingBox">
 
                         <div className="hashtag red mobileWhite">
@@ -27,7 +33,7 @@ const TopImage = (props: IProps) => {
                                     <span className="red fontEx mobileWhite">{props.additionaltitle}</span>
                                 </h1>
                             </div>
-                            <h2 className="grey fontNormal mobileWhite textBox">{props.text}</h2>
+                            <h2 className={"grey fontNormal mobileWhite textBox " + hasLink}>{props.text}</h2>
                         </div>
                     </div>
                 </div>

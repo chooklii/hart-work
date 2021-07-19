@@ -225,4 +225,8 @@
         position: absolute; 
         bottom: 0;
     }
+
+    .carousel-link-mobile{
+        cursor: pointer;
+    }
 }
