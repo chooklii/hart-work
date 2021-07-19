@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /static
+Disallow: /assets
+
+Sitemap: http://hart-work.de/sitemap.xml
