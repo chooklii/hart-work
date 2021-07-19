@@ -10,7 +10,7 @@ const Sporttherapie = () => {
                     imageName="sport_top"
                     title="Sport"
                     additionaltitle="therapie"
-                    text="Krasser Slogan"
+                    text=""
                 />
                 <SportOptions />
 

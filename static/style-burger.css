@@ -60,6 +60,10 @@
   .bm-item {
     display: inline-block;
   }
+
+  .bm-item:active {
+    color: #70231d;
+  }
   
   /* Styling of overlay */
   .bm-overlay {

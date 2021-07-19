@@ -11,7 +11,7 @@ const Physiotherapie = () => {
                 imageName="physio_top"
                 title="Physio"
                 additionaltitle="therapie"
-                text="Krasser Slogan"
+                text=""
                 />
 
             <PhysioOptions/>

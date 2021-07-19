@@ -8,12 +8,19 @@
         position: fixed;
         top: 0;
         background-color: #5b5b5b;
-        border-bottom: 1px solid black;
         z-index: 10000;
     }
 
     .desktop{
         display: none
+    }
+
+    body{
+        max-width: 100%
+    }
+
+    .mobileWhite{
+        color: white !important
     }
 
     .header-mobile-span{
@@ -65,9 +72,24 @@
     }
 
     .hashtag{
-        font-size: 100px;
-        line-height: 150px;
+        font-size: 70px;
+        line-height: 80px;
         margin-left: 10px;
+    }
+
+    .headingBox{
+        display: inline-flex;
+        margin-top: 10vh;
+        width: 98%;
+        margin-left: 1%;
+    }
+
+    .heading{
+        margin-bottom: 0;
+    }
+
+    .textBox{
+        margin-top: 0;
     }
 
     .basicIcon{
@@ -148,6 +170,11 @@
     .inline-col{
         display: inline-flex;
         width: 100%;
+    }
+
+    .inline{
+        display: inline-flex;
+        width: 70%;
     }
 
     .floatingtext{

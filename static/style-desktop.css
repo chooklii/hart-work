@@ -1,6 +1,6 @@
 /*Style Desktop Layout*/
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1200px) {
 
     body{
         margin: 0;
@@ -97,6 +97,10 @@
       margin-left: 10%;
       border-radius: 20px;
       background: rgba(255, 255, 255, 0.4);
+    }
+
+    .imageHeading{
+        font-size: 3vw !important;
     }
 
     .headingBox{
@@ -236,6 +240,11 @@
 
     .inlinetext{
         margin-right: 5%;
+    }
+
+    .inline{
+        display: inline-flex;
+        width: 100%;
     }
 
     .footer{

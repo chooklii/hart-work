@@ -8,7 +8,7 @@ const HomeCarousel = () => {
         <Carousel autoplay effect="fade">
             <TopImage
                 imageName = "homeImage"
-                title = "Physiotherapie Personaltraining"
+                title = "Physiotherapie & Personaltraining"
                 additionaltitle=""
                 text = ""
             />

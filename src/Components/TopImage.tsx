@@ -14,20 +14,20 @@ const TopImage = (props: IProps) => {
     return (
         <div>
             <div className={imageClassName}>
-                <div className="heading-image-box desktop">
+                <div className="heading-image-box">
                     <div className="headingBox">
 
-                        <div className="hashtag red">
+                        <div className="hashtag red mobileWhite">
                             <FontAwesomeIcon icon={faHashtag} />
                         </div>
                         <div>
                             <div className="imageHeading">
-                                <h1 className="red fontBold heading">
+                                <h1 className="red fontBold heading imageHeading mobileWhite">
                                     {props.title}
-                                    <span className="red fontEx">{props.additionaltitle}</span>
+                                    <span className="red fontEx mobileWhite">{props.additionaltitle}</span>
                                 </h1>
                             </div>
-                            <h2 className="grey fontNormal textBox">{props.text}</h2>
+                            <h2 className="grey fontNormal mobileWhite textBox">{props.text}</h2>
                         </div>
                     </div>
                 </div>

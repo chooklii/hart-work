@@ -57,10 +57,10 @@ const sportOptions: Options[] = [
 const renderPricing = (): ReactFragment => {
     return sportOptions.map(single => {
         return (
-            <Col xl={8} xxl={8} lg={8} md={12} sm={12} xs={24} key={keyGenerator()}>
+            <Col xl={8} xxl={8} lg={24} md={24} sm={24} xs={24} key={keyGenerator()}>
                 <h3 className="red fontBold center thirdheading">{single.name}</h3>
                 <Row>
-                    <Col xl={12} xxl={12} lg={12} md={12} sm={12} xs={24}>
+                    <Col xl={12} xxl={12} lg={24} md={24} sm={24} xs={24}>
                         <div className="inline-col">
                             <p className="grey fontNormal floatingtext">
                                 <FontAwesomeIcon className="grey fontNormal texticon" icon={faClock} />
@@ -72,7 +72,7 @@ const renderPricing = (): ReactFragment => {
                             </p>
                         </div>
                     </Col>
-                    <Col xl={12} xxl={12} lg={12} md={12} sm={12} xs={24}>
+                    <Col xl={12} xxl={12} lg={24} md={24} sm={24} xs={24}>
                         <div className="inline-col">
                             <p className="grey fontNormal floatingtext">
                                 <FontAwesomeIcon className="grey fontNormal texticon" icon={faClock} />

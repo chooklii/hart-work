@@ -165,10 +165,6 @@ body{
     text-decoration: underline;
 }
 
-.inline{
-    display: inline-flex;
-    width: 100%;
-}
 
 /*Style Smartphone Layout*/
 
@@ -180,12 +176,19 @@ body{
         position: fixed;
         top: 0;
         background-color: #5b5b5b;
-        border-bottom: 1px solid black;
         z-index: 10000;
     }
 
     .desktop{
         display: none
+    }
+
+    body{
+        max-width: 100%
+    }
+
+    .mobileWhite{
+        color: white !important
     }
 
     .header-mobile-span{
@@ -237,9 +240,24 @@ body{
     }
 
     .hashtag{
-        font-size: 100px;
-        line-height: 150px;
+        font-size: 70px;
+        line-height: 80px;
         margin-left: 10px;
+    }
+
+    .headingBox{
+        display: inline-flex;
+        margin-top: 10vh;
+        width: 98%;
+        margin-left: 1%;
+    }
+
+    .heading{
+        margin-bottom: 0;
+    }
+
+    .textBox{
+        margin-top: 0;
     }
 
     .basicIcon{
@@ -322,6 +340,11 @@ body{
         width: 100%;
     }
 
+    .inline{
+        display: inline-flex;
+        width: 70%;
+    }
+
     .floatingtext{
         margin-left: 10%;
         margin-top: 15px;
@@ -374,7 +397,7 @@ body{
 
 /*Style Desktop Layout*/
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1200px) {
 
     body{
         margin: 0;
@@ -471,6 +494,10 @@ body{
       margin-left: 10%;
       border-radius: 20px;
       background: rgba(255, 255, 255, 0.4);
+    }
+
+    .imageHeading{
+        font-size: 3vw !important;
     }
 
     .headingBox{
@@ -612,6 +639,11 @@ body{
         margin-right: 5%;
     }
 
+    .inline{
+        display: inline-flex;
+        width: 100%;
+    }
+
     .footer{
         border-top: 1px solid #5b5b5b;
     }
@@ -700,14 +732,510 @@ body{
     body{
         margin: 0
     }
+
+    .headline{
+        width: 100%;
+        height: 3em;
+        position: fixed;
+        top: 0;
+        background-color: #5b5b5b;
+        z-index: 10000;
+    }
+
+    .desktop{
+        display: none
+    }
+
+    body{
+        max-width: 100%
+    }
+
+    .mobileWhite{
+        color: white !important
+    }
+
+    .header-mobile-span{
+        cursor: pointer;
+        position: absolute;
+        height: 3em;
+        width: 20%;
+        top: 0;
+        left: 0
+    }
+
+    .header-link{
+        padding: 1em
+    }
+
+    .socialmedia{
+        margin-top: 10%
+    }
+    
+    .icon_social{
+        font-size: 25px;
+        margin-left: .5em;
+    }
+
+    .content{
+        padding-top: 3em;
+        padding-bottom: 3em;
+    }
+
+    .heading-image{
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 30vh;
+        display: flex;
+        border-bottom: 1px solid #5b5b5b;
+    }
+
+    .heading-image-box{
+        width: 100%;
+    }
+
+    .bottom-image{
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 30vh;
+        display: flex;
+        border-bottom: 1px solid #5b5b5b;
+        border-top: 1px solid #5b5b5b;
+    }
+
+    .hashtag{
+        font-size: 70px;
+        line-height: 80px;
+        margin-left: 10px;
+    }
+
+    .headingBox{
+        display: inline-flex;
+        margin-top: 15vh;
+        width: 98%;
+        margin-left: 1%;
+    }
+
+    .imageHeading{
+        font-size: 5vw !important;
+    }
+
+    .heading{
+        margin-bottom: 0;
+    }
+
+    .textBox{
+        margin-top: 0;
+        font-size: 3vw !important;
+    }
+
+    .basicIcon{
+        font-size: 50px;
+    }
+
+    .basics{
+        margin-top: 2%;
+        width: 100%;
+    }
+
+    .singleBasic{
+        width: 100%;
+        text-align: center;
+    }
+
+    .fontNormal{
+        font-size: larger;
+    }
+
+    .opening{
+        margin-left: 40%;
+    }
+
+    .opening_days{
+        min-width: 70px;
+    }
+
+    .qualificationheading{
+        margin-left: 15%;
+        font-size: larger;
+    }
+
+    .qualification{
+        font-size: larger;
+        margin-left: 25%;
+    }
+
+    .text{
+        font-size: larger;
+    }
+
+    .singleMember{
+        margin-top: 50px
+    }
+
+    .teamimage{
+        width: 150px;
+        height: 150px;
+        border-radius: 75px;
+        margin-bottom: 25px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .thirdheading{
+        margin-left: 10%;
+    }
+
+    .iconPhysio{
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 60px;
+        height: 60px;
+        display: inline-block;
+    }
+
+    .singleOptionPhysio{
+        width: 25%;
+        padding: 1em;
+        text-align: center;
+    }
+
+    .thirdheading{
+        font-size: 20px;
+    }
+
+    .subheading{
+        font-size: 35px;
+        margin-top: 10px;
+    }
+
+    .inlinetext{
+        margin-right: 5%;
+    }
+
+    .inline-col{
+        display: inline-flex;
+        width: 100%;
+    }
+
+    .inline{
+        display: inline-flex;
+        width: 60%;
+    }
+
+    .floatingtext{
+        margin-left: 20%;
+        margin-top: 15px;
+        width: 40%;
+    }
+
+    .floatingservices{
+        margin-left: 20%;
+    }
+
+    .services{
+        text-align: center;
+    }
+
+    .philosophie{
+        margin-left: 10%;
+        width: 80%;
+        line-height: 2;
+    }
+
+    .imprint{
+        margin-left: 10%;
+        width: 80%;
+        line-height: 2;
+    }
+
+    .imprintfloat{
+        margin-left: 5%;
+    }
+
+    .iconImprint{
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 40px;
+        height: 40px;
+        display: inline-block;  
+    }
+
+    .header-logo{
+        width: 100px;
+        height: 100px;
+    }
+
+    .companyName{
+        position: absolute; 
+        bottom: 0;
+    }
 }
 
 /*Style Tablet Layout*/
 
-@media screen and (max-width: 1025px) and (min-width: 768px) {
+@media screen and (max-width: 1200px) and (min-width: 768px) {
 
     body{
         margin: 0
+    }
+
+    .headline{
+        width: 100%;
+        height: 3em;
+        position: fixed;
+        top: 0;
+        background-color: #5b5b5b;
+        z-index: 10000;
+    }
+
+    .desktop{
+        display: none
+    }
+
+    body{
+        max-width: 100%
+    }
+
+    .mobileWhite{
+        color: white !important
+    }
+
+    .header-mobile-span{
+        cursor: pointer;
+        position: absolute;
+        height: 3em;
+        width: 20%;
+        top: 0;
+        left: 0
+    }
+
+    .header-link{
+        padding: 2em;
+        font-size: large;
+    }
+
+    .socialmedia{
+        margin-top: 10%
+    }
+    
+    .icon_social{
+        font-size: 35px;
+        margin-left: .5em;
+    }
+
+
+    .content{
+        padding-top: 3em;
+        padding-bottom: 3em;
+    }
+
+    .heading-image{
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 30vh;
+        display: flex;
+        border-bottom: 1px solid #5b5b5b;
+    }
+
+    .heading-image-box{
+        width: 100%;
+    }
+
+    .bottom-image{
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 30vh;
+        display: flex;
+        border-bottom: 1px solid #5b5b5b;
+        border-top: 1px solid #5b5b5b;
+    }
+
+    .hashtag{
+        font-size: 70px;
+        line-height: 80px;
+        margin-left: 10px;
+    }
+
+    .headingBox{
+        display: inline-flex;
+        margin-top: 15vh;
+        width: 98%;
+        margin-left: 1%;
+    }
+
+    .imageHeading{
+        font-size: 5vw !important;
+    }
+
+    .heading{
+        margin-bottom: 0;
+    }
+
+    .textBox{
+        margin-top: 0;
+        font-size: 3vw !important;
+    }
+
+    .basicIcon{
+        font-size: 50px;
+    }
+
+    .basics{
+        margin-top: 2%;
+        width: 100%;
+    }
+
+    .singleBasic{
+        width: 100%;
+        text-align: center;
+    }
+
+    .fontNormal{
+        font-size: large;
+    }
+
+    .opening{
+        margin-left: 40%;
+    }
+
+    .opening_days{
+        min-width: 70px;
+    }
+
+    .qualificationheading{
+        margin-left: 25%;
+        font-size: large;
+    }
+
+    .qualification{
+        font-size: large;
+        margin-left: 30%;
+    }
+
+    .text{
+        font-size: large;
+    }
+
+    .singleMember{
+        margin-top: 50px
+    }
+
+    .teamimage{
+        width: 150px;
+        height: 150px;
+        border-radius: 75px;
+        margin-bottom: 25px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .thirdheading{
+        margin-left: 10%;
+    }
+
+    .iconPhysio{
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 60px;
+        height: 60px;
+        display: inline-block;
+    }
+
+    .singleOptionPhysio{
+        width: 25%;
+        padding: 1em;
+        text-align: center;
+    }
+
+    .thirdheading{
+        font-size: 20px;
+    }
+
+    .subheading{
+        font-size: 35px;
+        margin-top: 10px;
+    }
+
+    .inlinetext{
+        margin-right: 5%;
+    }
+
+    .inline-col{
+        display: inline-flex;
+        width: 100%;
+    }
+
+    .inline{
+        display: inline-flex;
+        width: 60%;
+    }
+
+    .floatingtext{
+        margin-left: 20%;
+        margin-top: 15px;
+        width: 40%;
+    }
+
+    .floatingservices{
+        margin-left: 20%;
+    }
+
+    .services{
+        text-align: center;
+    }
+
+    .philosophie{
+        margin-left: 10%;
+        width: 80%;
+        line-height: 2;
+    }
+
+    .imprint{
+        margin-left: 10%;
+        width: 80%;
+        line-height: 2;
+    }
+
+    .imprintfloat{
+        margin-left: 5%;
+    }
+
+    .iconImprint{
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 40px;
+        height: 40px;
+        display: inline-block;  
+    }
+
+    .header-logo{
+        width: 100px;
+        height: 100px;
+    }
+
+    .companyName{
+        position: absolute; 
+        bottom: 0;
     }
 }
 /* Position and sizing of burger button */
@@ -771,6 +1299,10 @@ body{
   /* Individual item */
   .bm-item {
     display: inline-block;
+  }
+
+  .bm-item:active {
+    color: #70231d;
   }
   
   /* Styling of overlay */
