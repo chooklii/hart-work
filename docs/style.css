@@ -397,6 +397,11 @@ body{
     .carousel-link-mobile{
         cursor: pointer;
     }
+
+    .notFound_icon{
+        font-size: 100px;
+        margin-top: 5%;
+    }
 }
 
 /*Style Desktop Layout*/
@@ -734,6 +739,11 @@ body{
     .carousel-link-desktop{
         cursor: pointer;
     }
+
+    .notFound_icon{
+        font-size: 150px;
+        margin-top: 5%;
+    }
 }
 
 /*Style Tablet Layout*/
@@ -984,6 +994,11 @@ body{
     .carousel-link-mobile{
         cursor: pointer;
     }
+
+    .notFound_icon{
+        font-size: 100px;
+        margin-top: 5%;
+    }
 }
 
 @media screen and (max-width: 768px) and (min-width: 481px) and (orientation : landscape)  {
@@ -1133,6 +1148,9 @@ body{
         margin-left: 30%;
     }
 
+    .text{
+    }
+
     .singleMember{
         margin-top: 50px
     }
@@ -1243,6 +1261,11 @@ body{
 
     .carousel-link-mobile{
         cursor: pointer;
+    }
+
+    .notFound_icon{
+        font-size: 100px;
+        margin-top: 5%;
     }
 }
 
