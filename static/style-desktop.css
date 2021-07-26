@@ -333,4 +333,9 @@
     .carousel-link-desktop{
         cursor: pointer;
     }
+
+    .notFound_icon{
+        font-size: 150px;
+        margin-top: 5%;
+    }
 }

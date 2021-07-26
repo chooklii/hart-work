@@ -246,6 +246,11 @@
     .carousel-link-mobile{
         cursor: pointer;
     }
+
+    .notFound_icon{
+        font-size: 100px;
+        margin-top: 5%;
+    }
 }
 
 @media screen and (max-width: 768px) and (min-width: 481px) and (orientation : landscape)  {

@@ -251,6 +251,11 @@
     .carousel-link-mobile{
         cursor: pointer;
     }
+
+    .notFound_icon{
+        font-size: 100px;
+        margin-top: 5%;
+    }
 }
 
 
