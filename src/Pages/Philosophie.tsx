@@ -1,9 +1,12 @@
 import React from "react"
 import { Header, Footer } from "../Components"
-
+import Helmet from 'react-helmet';
 const Philosophie = () => {
     return (
         <div>
+            <Helmet>
+                <title>#HARTWORK - Impressum</title>
+            </Helmet>
             <Header />
             <div className="content">
 
