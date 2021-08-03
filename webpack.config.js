@@ -28,12 +28,12 @@ const paths  = [
 
 let multipleHtmlPlugins = paths.map(single => {
   return new HtmlWebPackPlugin({
-    template: "./static/index.html",
+    template: "./static/index.ejs",
     filename: `../docs/${single.name}/index.html`,
+    header: {title: single.title},
     meta: {
-      title: single.title,
       description: single.description
-    }
+    },
   })
 });
 
@@ -72,18 +72,18 @@ module.exports = {
     },
     plugins: [
         new HtmlWebPackPlugin({
-          template: "./static/index.html",
+          template: "./static/index.ejs",
           filename: "../docs/index.html",
           meta: {
-            title: "#HARTWORK",
             description: "#HARTWORK - Physiotherapie & Personaltraining in Neuenstein"
-          }
+          },
+          header: {title: "#HARTWORK"},
         }),
         new HtmlWebPackPlugin({
-          template: "./static/index.html",
+          template: "./static/index.ejs",
           filename: "../docs/404.html",
+          header: {title: "#HARTWORK"},
           meta: {
-            title: "#HARTWORK",
             description: "#HARTWORK - Physiotherapie & Personaltraining in Neuenstein"
           }
         }),
