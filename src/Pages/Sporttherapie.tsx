@@ -6,7 +6,7 @@ const Sporttherapie = () => {
     return (
         <div>
             <Helmet>
-                <title>#HARTWORK - Impressum</title>
+                <title>#HARTWORK - Sporttherapie</title>
             </Helmet>
             <Header />
             <div className="content">

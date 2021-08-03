@@ -5,7 +5,7 @@ const Philosophie = () => {
     return (
         <div>
             <Helmet>
-                <title>#HARTWORK - Impressum</title>
+                <title>#HARTWORK - Philosophie</title>
             </Helmet>
             <Header />
             <div className="content">
