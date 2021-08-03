@@ -4,16 +4,36 @@ const path = require("path");
 
 // add paths for subdomains here
 const paths  = [
-  "physiotherapie",
-  "sporttherapie",
-  "impressum",
-  "philosophie"
+  {
+    name: "physiotherapie",
+    title: "#HARTWORK - Physiotherapie",
+    description: "#HARTWORK - Physiotherapie zur Behandlung und evtl. Vorbeugung körperlicher Beschwerden in Neuenstein"
+  },
+  {
+    name: "sporttherapie",
+    title: "#HARTWORK - Sporttherapie",
+    description: "#HARTWORK - Sporttherapie und Personal- oder Gruppentraining für bis zu Personen in Neuenstein"
+  },
+  {
+    name: "impressum",
+    title: "#HARTWORK - Impressum",
+    description: "#HARTWORK - Physiotherapie & Personaltraining in Neuenstein"
+  },
+  {
+    name: "philosophie",
+    title: "#HARTWORK - Philosophie",
+    description: "#HARTWORK - Philosophie "
+  }
 ]
 
-let multipleHtmlPlugins = paths.map(name => {
+let multipleHtmlPlugins = paths.map(single => {
   return new HtmlWebPackPlugin({
     template: "./static/index.html",
-    filename: `../docs/${name}/index.html`,
+    filename: `../docs/${single.name}/index.html`,
+    meta: {
+      title: single.title,
+      description: single.description
+    }
   })
 });
 
@@ -54,10 +74,18 @@ module.exports = {
         new HtmlWebPackPlugin({
           template: "./static/index.html",
           filename: "../docs/index.html",
+          meta: {
+            title: "#HARTWORK",
+            description: "#HARTWORK - Physiotherapie & Personaltraining in Neuenstein"
+          }
         }),
         new HtmlWebPackPlugin({
           template: "./static/index.html",
-          filename: "../docs/404.html"
+          filename: "../docs/404.html",
+          meta: {
+            title: "#HARTWORK",
+            description: "#HARTWORK - Physiotherapie & Personaltraining in Neuenstein"
+          }
         }),
       new MiniCssExtractPlugin({
           filename: "style.css",
