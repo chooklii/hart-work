@@ -66,11 +66,13 @@ body{
 }
 
 .stefan{
-    background-image: url(../static/stefan.jpg)
+    background-image: url(../static/stefan.jpeg);
+    background-position: 17% 17% !important
 }
 
+
 .madeleine{
-    background-image: url(../static/madeleine.jpg)
+    background-image: url(../static/madeleine.jpeg)
 }
 
 .homeImage{
@@ -165,7 +167,7 @@ body{
     text-decoration: underline;
 }
 
-.nosocial{
+.icon_social{
     display: none
 }
 

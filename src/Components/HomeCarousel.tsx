@@ -14,10 +14,10 @@ const HomeCarousel = () => {
             />
             <TopImage
                 imageName = "homeImage"
-                title = "HARDOPENING"
+                title = "HARTOPENING"
                 additionaltitle=""
                 link={true}
-                url="https://bzenth.de/"
+                url={window.location + "/hartopening.pdf"}
                 text = "Tag der offenen Tür am 21.08"
             />
 
