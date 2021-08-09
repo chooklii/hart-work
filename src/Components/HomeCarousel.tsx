@@ -5,7 +5,7 @@ import { Carousel } from "antd"
 
 const HomeCarousel = () => {
     return(
-        <Carousel  effect="fade">
+        <Carousel  effect="fade" autoplay>
             <TopImage
                 imageName = "homeImage"
                 title = "Physiotherapie & Personaltraining"

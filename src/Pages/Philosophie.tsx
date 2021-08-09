@@ -13,9 +13,9 @@ const Philosophie = () => {
                 <h2 className="red fontBold subheading center">#Philosophie</h2>
 
                 <p className="grey fontNormal philosophie">
-                    Das Innere einer Frucht ist der Kern und dieser ist der Ursprung von etwas ganz Großem. Da ist es egal, ob es eine Traube oder eine Melone wird - der Kern ist immer das Wich-tigste, sowohl bei Früchten, als auch beim menschlichen Körper. Er ist immer hart und hart ist auch das erste Wort von unserem Neuunternehmen #HARTWORK. 
+                    Das Innere einer Frucht ist der Kern und dieser ist der Ursprung von etwas ganz Großem. Da ist es egal, ob es eine Traube oder eine Melone wird - der Kern ist immer das Wichtigste, sowohl bei Früchten, als auch beim menschlichen Körper. Er ist immer hart und hart ist auch das erste Wort von unserem Neuunternehmen #HARTWORK. 
                     <br /><br />
-                    Der zweite Teil der Unternehmensbezeichnung ist „work“. Work heißt übersetzt arbeiten. Wir wollen mit unseren Kunden durch individuelles und attraktives Personaltraining an einem gesünderen Lebensstil arbeiten. Für diese Kombination steht #HART- WORK: Ge-zielte Physiotherapie gepaart mit Fitnessübungen im Personaltraining und Gruppentrai-ning. 
+                    Der zweite Teil der Unternehmensbezeichnung ist „work“. Work heißt übersetzt arbeiten. Wir wollen mit unseren Kunden durch individuelles und attraktives Personaltraining an einem gesünderen Lebensstil arbeiten. Für diese Kombination steht #HART- WORK: Gezielte Physiotherapie gepaart mit Fitnessübungen im Personaltraining und Gruppentraining. 
                     <br /><br />
                     Die Philosophie von #HARTWORK ist das Innere, der Ursprung und die Mitte. 
                     <br /><br />
