@@ -31,8 +31,8 @@ const Header = () => {
             <a href="https://www.facebook.com/Hartwork-147079237493124/" target="_blank">
               <FontAwesomeIcon className="icon_social white" icon={faFacebookSquare} />
             </a>
-            <a href="https://instagram.com" target="_blank">
-              <FontAwesomeIcon className="icon_social white displayNone" icon={faInstagramSquare} />
+            <a href="https://www.instagram.com/hartwork_fitseinmitdenprofis/" target="_blank">
+              <FontAwesomeIcon className="icon_social white" icon={faInstagramSquare} />
             </a>
           </div>
 
