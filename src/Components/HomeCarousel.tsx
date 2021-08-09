@@ -13,7 +13,7 @@ const HomeCarousel = () => {
                 text = ""
             />
             <TopImage
-                imageName = "homeImage"
+                imageName = "hartopening"
                 title = "HARTOPENING"
                 additionaltitle=""
                 link={true}

@@ -79,6 +79,10 @@ body{
     background-image: url(../static/sporttraining.jpg);
 }
 
+.hartopening{
+    background-image: url(../static/hartopening.jpg);
+}
+
 .homeBottomImage{
     background-image: url(../static/kurs1.jpg)
 }
