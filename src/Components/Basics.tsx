@@ -27,7 +27,7 @@ const Basics = () => {
                 <FontAwesomeIcon className="basicIcon red" icon={faCalendarAlt} />
                 <h2 className="red fontBold">Terminanfragen</h2>
                 <p className="grey fontNormal text"><FontAwesomeIcon className="texticon" icon={faPhone} />
-                    <a className="link grey" href="tel:079427941459">07942/79 41 459</a>
+                    <a className="link grey" href="tel:079427119877">07942/711 98 77</a>
                 </p>
                 <p className="grey fontNormal text"><FontAwesomeIcon className="texticon" icon={faEnvelope} />
                     <a className="link grey" href="mailto:info@hart-work.de">info@hart-work.de</a>
