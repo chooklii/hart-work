@@ -11,11 +11,11 @@ const Footer = () =>  {
         <div className="footer-content">
         <h3 className="red fontBold floatingheading">#HART<span className="fontEx">WORK</span></h3>
         <div className="socialmedia">
-        <a href="https://de-de.facebook.com/" className="nosocial" target="_blank">
+        <a href="https://www.facebook.com/Hartwork-147079237493124/" className="nosocial" target="_blank">
         <FontAwesomeIcon className="icon_social grey" icon={faFacebookSquare}/>
         </a>
         <a href="https://instagram.com" className="nosocial" target="_blank">
-        <FontAwesomeIcon className="icon_social grey" icon={faInstagramSquare}/>
+        <FontAwesomeIcon className="icon_social grey displayNone" icon={faInstagramSquare}/>
         </a>
         </div>
         <div className="footer-links">

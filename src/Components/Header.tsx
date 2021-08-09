@@ -28,11 +28,11 @@ const Header = () => {
           <Link className="header-link button white fontBold" to="/impressum">Impressum</Link>
 
           <div className="socialmedia">
-            <a href="https://de-de.facebook.com/" target="_blank">
+            <a href="https://www.facebook.com/Hartwork-147079237493124/" target="_blank">
               <FontAwesomeIcon className="icon_social white" icon={faFacebookSquare} />
             </a>
             <a href="https://instagram.com" target="_blank">
-              <FontAwesomeIcon className="icon_social white" icon={faInstagramSquare} />
+              <FontAwesomeIcon className="icon_social white displayNone" icon={faInstagramSquare} />
             </a>
           </div>
 

@@ -1,24 +1,24 @@
 
 import React from "react"
-import { TopImage} from "../Components"
+import { TopImage } from "../Components"
 import { Carousel } from "antd"
 
 const HomeCarousel = () => {
-    return(
-        <Carousel  effect="fade" autoplay>
+    return (
+        <Carousel effect="fade" autoplay>
             <TopImage
-                imageName = "homeImage"
-                title = "Physiotherapie & Personaltraining"
-                additionaltitle=""
-                text = ""
-            />
-            <TopImage
-                imageName = "hartopening"
-                title = "HARTOPENING"
+                imageName="hartopening"
+                title="HARTOPENING"
                 additionaltitle=""
                 link={true}
                 url={window.location + "/hartopening.pdf"}
-                text = "Tag der offenen Tür am 21.08"
+                text="Tag der offenen Tür am 21.08"
+            />
+            <TopImage
+                imageName="homeImage"
+                title="Physiotherapie & Personaltraining"
+                additionaltitle=""
+                text=""
             />
 
         </Carousel>
