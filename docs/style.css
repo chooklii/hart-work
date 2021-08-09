@@ -66,13 +66,13 @@ body{
 }
 
 .stefan{
-    background-image: url(../static/stefan.jpeg);
+    background-image: url(../static/stefan.png);
     background-position: 17% 17% !important
 }
 
 
 .madeleine{
-    background-image: url(../static/madeleine.jpeg)
+    background-image: url(../static/madeleine.png)
 }
 
 .homeImage{
