@@ -10,7 +10,8 @@ const Basics = () => {
                 <h2 className="red fontBold">Standort</h2>
                 <p className="grey fontNormal text">Max-Eyth-Straße 36, 74632 Neuenstein</p>
                 <p className="grey fontNormal text">
-                    <a className="grey underline mapslink" target="_blank" href="https://www.google.de/maps/@49.2127037,9.5938756,177m/data=!3m1!1e3?hl=de">auf Google Maps anzeigen</a>
+                    <a className="grey underline mapslink" target="_blank" href="https://www.google.de/maps/place/%23HARTWORK/@49.2124825,9.5922152,17z/data=!3m1!4b1!4m5!3m4!1s0x4798416f97759459:0xac94cb1bf82905e!8m2!3d49.212479!4d9.5944039">
+                    auf Google Maps anzeigen</a>
                 </p>
 
             </div>
