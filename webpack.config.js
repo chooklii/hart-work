@@ -17,7 +17,8 @@ const paths  = [
   {
     name: "impressum",
     title: "#HARTWORK - Impressum",
-    description: "#HARTWORK - Physiotherapie & Personaltraining in Neuenstein"
+    description: "#HARTWORK - Physiotherapie & Personaltraining in Neuenstein",
+    noIndex: "noIndex"
   },
   {
     name: "philosophie",
@@ -32,7 +33,8 @@ let multipleHtmlPlugins = paths.map(single => {
     filename: `../docs/${single.name}/index.html`,
     header: {title: single.title},
     meta: {
-      description: single.description
+      description: single.description,
+      ...single.noIndex && {robots: single.noIndex}
     },
   })
 });
