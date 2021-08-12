@@ -26,7 +26,7 @@ const team: TeamInfos[] = [{
         "Therapeutisches Klettern (FOMT)",
         "MTC Medical Tapering Concept",
         "Fitness Trainer",
-        "Erlebnispädagogik / Erlebnisspport"
+        "Erlebnispädagogik / Erlebnissport"
     ]
 }, {
     name: "Stefan Kramer",
