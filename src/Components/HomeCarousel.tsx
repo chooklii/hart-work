@@ -7,14 +7,6 @@ const HomeCarousel = () => {
     return (
         <Carousel effect="fade" autoplay>
             <TopImage
-                imageName="hartopening"
-                title="HARTOPENING"
-                additionaltitle=""
-                link={true}
-                url={window.location + "/hartopening.pdf"}
-                text="Tag der offenen Tür am 21.08"
-            />
-            <TopImage
                 imageName="homeImage"
                 title="Physiotherapie & Personaltraining"
                 additionaltitle=""
