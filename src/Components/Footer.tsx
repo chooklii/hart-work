@@ -19,7 +19,7 @@ const Footer = () =>  {
         </a>
         </div>
         <div className="footer-links">
-        <Link className="footer-link button red fontBold" to="/impressum">Impressum</Link>
+        <Link className="footer-link button red fontBold" to="/impressum/">Impressum</Link>
         </div>
         </div>
       </div>
