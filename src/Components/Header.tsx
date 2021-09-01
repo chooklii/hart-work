@@ -22,10 +22,10 @@ const Header = () => {
         <Menu>
           
           <Link className="header-link button white fontBold" to="/">Startseite</Link>
-          <Link className="header-link button white fontBold" to="/physiotherapie">Physiotherapie</Link>
-          <Link className="header-link button white fontBold" to="/sporttherapie">Sporttherapie</Link>
-          <Link className="header-link button white fontBold" to="/philosophie">Philosophie</Link>
-          <Link className="header-link button white fontBold" to="/impressum">Impressum</Link>
+          <Link className="header-link button white fontBold" to="/physiotherapie/">Physiotherapie</Link>
+          <Link className="header-link button white fontBold" to="/sporttherapie/">Sporttherapie</Link>
+          <Link className="header-link button white fontBold" to="/philosophie/">Philosophie</Link>
+          <Link className="header-link button white fontBold" to="/impressum/">Impressum</Link>
 
           <div className="socialmedia">
             <a href="https://www.facebook.com/Hartwork-147079237493124/" target="_blank">
@@ -51,9 +51,9 @@ const Header = () => {
           {displayStartPage &&
             <Link className="header-link button red fontBold" to="/">Startseite</Link>
           }
-          <Link className="header-link button red fontBold" to="/physiotherapie">Physiotherapie</Link>
-          <Link className="header-link button red fontBold" to="/sporttherapie">Sporttherapie</Link>
-          <Link className="header-link button red fontBold" to="/philosophie">Philosophie</Link>
+          <Link className="header-link button red fontBold" to="/physiotherapie/">Physiotherapie</Link>
+          <Link className="header-link button red fontBold" to="/sporttherapie/">Sporttherapie</Link>
+          <Link className="header-link button red fontBold" to="/philosophie/">Philosophie</Link>
         </div>
       </div>
     </div>
