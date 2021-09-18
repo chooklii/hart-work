@@ -1,5 +1,5 @@
 import React from "react"
-import { Header, TopImage, BottomImage, SportOptions, SportPricing, Footer } from "../Components"
+import { Header, BottomImage, SportOptions, SportPricing, Footer, SportCarousel } from "../Components"
 import Helmet from 'react-helmet';
 
 const Sporttherapie = () => {
@@ -10,12 +10,7 @@ const Sporttherapie = () => {
             </Helmet>
             <Header />
             <div className="content">
-                <TopImage
-                    imageName="sport_top"
-                    title="Sport"
-                    additionaltitle="therapie"
-                    text=""
-                />
+                <SportCarousel />
                 <SportOptions />
 
                 <BottomImage

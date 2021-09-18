@@ -66,41 +66,105 @@ body{
 }
 
 .stefan{
-    background-image: url(../static/stefan.png);
-    background-position: 17% 17% !important
+    background-image: url(../static/stefan.jpg);
+    background-position: 6% 6% !important
 }
 
 
 .madeleine{
-    background-image: url(../static/madeleine.png)
+    background-image: url(../static/madeleine.jpg);
+    background-position: 17% 17% !important
 }
 
 .homeImage{
-    background-image: url(../static/sporttraining.jpg);
+    background-image: url(../static/personaltraining_reifen.jpg);
 }
 
-.hartopening{
-    background-image: url(../static/hartopening.jpg);
+.home_rotation_1{
+    background-image: url(../static/physiotherapie_behandlung_3.jpg);
+}
+
+.home_rotation_2{
+    background-image: url(../static/kurstraining.jpg);
+    background-position: 0% 20% !important;
+}
+
+.home_rotation_3{
+    background-image: url(../static/physiotherapie_maschine.jpg);
+}
+
+.home_rotation_4{
+    background-image: url(../static/theke.jpg);
+}
+
+.home_rotation_5{
+    background-image: url(../static/gebaude_hartwork.jpg);
 }
 
 .homeBottomImage{
-    background-image: url(../static/kurs1.jpg)
+    background-image: url(../static/paartraining.jpg);
+    background-position: 0% 54% !important;
 }
 
 .physio_top{
-    background-image: url(../static/physio.jpg);
+    background-image: url(../static/physiotherapie_behandlung_2.jpg);
+    background-position: 0% 70% !important
+}
+
+.physio_rotation_1{
+    background-image: url(../static/physiotherapie_schulter.jpg);
+}
+
+.physio_rotation_2{
+    background-image: url(../static/physiotherapie_ruecken.jpg);
+}
+
+.physio_rotation_3{
+    background-image: url(../static/physiotherapie_taping.jpg);
+    background-position: top !important;
+}
+
+.physio_rotation_4{
+    background-image: url(../static/physiotherapie_raum2.jpg);
+}
+
+.physio_rotation_5{
+    background-image: url(../static/physiotherapie_raum3.jpg);
 }
 
 .physio_bottom{
-    background-image: url(../static/physio1.jpg);
+    background-image: url(../static/physiotherapie_behandlung_1.jpg);
+    background-position: 0% 56% !important;
 }
 
 .sport_top{
-    background-image: url(../static/sport_top.jpg);
+    background-image: url(../static/gruppentraining_2.jpg);
+}
+
+.sport_rotation_1{
+    background-image: url(../static/ems_training.jpg);
+    background-position: top !important;
+}
+
+.sport_rotation_2{
+    background-image: url(../static/personaltraining_lifting.jpg);
+}
+
+.sport_rotation_3{
+    background-image: url(../static/personaltraining_seil.jpg);
+    background-position: top !important;
+}
+
+.sport_rotation_4{
+    background-image: url(../static/ausrustung_personaltraining_1.jpg);
+}
+
+.sport_rotation_5{
+    background-image: url(../static/ausrustung_personaltraining_2.jpg);
 }
 
 .sport_bottom{
-    background-image: url(../static/sport_bottom.jpg);
+    background-image: url(../static/personaltraining_2.jpg);
 }
 
 .publicMassage{

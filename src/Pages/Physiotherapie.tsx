@@ -1,5 +1,5 @@
 import React from "react"
-import { Header, TopImage, BottomImage, PhysioPricing, PhysioOptions, Footer } from "../Components"
+import { Header, BottomImage, PhysioPricing, PhysioOptions, Footer, PhysioCarousel } from "../Components"
 import Helmet from 'react-helmet';
 
 const Physiotherapie = () => {
@@ -10,12 +10,7 @@ const Physiotherapie = () => {
             </Helmet>
             <Header />
             <div className="content">
-                <TopImage
-                    imageName="physio_top"
-                    title="Physio"
-                    additionaltitle="therapie"
-                    text=""
-                />
+                <PhysioCarousel/>
 
                 <PhysioOptions />
                 <BottomImage

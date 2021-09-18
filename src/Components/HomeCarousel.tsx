@@ -12,6 +12,27 @@ const HomeCarousel = () => {
                 additionaltitle=""
                 text=""
             />
+            <TopImage
+                imageName="home_rotation_1"
+                noBox={true}
+            />
+            <TopImage
+                imageName="home_rotation_2"
+                noBox={true}
+            />
+            <TopImage
+                imageName="home_rotation_3"
+                noBox={true}
+            />
+            <TopImage
+                imageName="home_rotation_4"
+                noBox={true}
+            />           
+             <TopImage
+                imageName="home_rotation_5"
+                noBox={true}
+            />
+
 
         </Carousel>
     )

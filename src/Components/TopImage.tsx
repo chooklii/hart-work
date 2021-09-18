@@ -4,10 +4,11 @@ import { faHashtag } from "@fortawesome/free-solid-svg-icons";
 
 interface IProps {
     imageName: string,
-    title: string,
+    title?: string,
     link?: boolean,
     url?: string,
-    text: string,
+    text?: string,
+    noBox?: boolean,
     additionaltitle?: string
 }
 
@@ -20,6 +21,7 @@ const TopImage = (props: IProps) => {
     return (
         <div>
             <div onClick={(!headerShown && props.link) ? () => window.open(props.url, '_blank') : null } className={imageClassName + " " + mobileLink}>
+            {!props.noBox &&
                 <div onClick={(headerShown && props.link) ? () => window.open(props.url, '_blank') : undefined } className={"heading-image-box " + desktopLink}>
                     <div className="headingBox">
 
@@ -37,6 +39,7 @@ const TopImage = (props: IProps) => {
                         </div>
                     </div>
                 </div>
+}
             </div>
         </div>
     )
