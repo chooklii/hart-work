@@ -35,6 +35,10 @@ const SportCarousel = () => {
                 imageName="sport_rotation_5"
                 noBox={true}
             />
+            <TopImage
+                imageName="sport_rotation_6"
+                noBox={true}
+            />
         </Carousel>
     )
 }

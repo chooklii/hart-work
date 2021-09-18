@@ -93,12 +93,17 @@ body{
     background-image: url("./physiotherapie_maschine.jpg");
 }
 
-.home_rotation_4{
+.home_rotation_5{
     background-image: url("./theke.jpg");
 }
 
-.home_rotation_5{
+.home_rotation_6{
     background-image: url("./gebaude_hartwork.jpg");
+}
+
+.home_rotation_4{
+    background-image: url("./team_hartwork.jpg");
+    background-position: 0% 20% !important
 }
 
 .homeBottomImage{
@@ -156,10 +161,14 @@ body{
 }
 
 .sport_rotation_4{
-    background-image: url("ausrustung_personaltraining_1.jpg");
+    background-image: url("teamworkout.jpg");
 }
 
 .sport_rotation_5{
+    background-image: url("ausrustung_personaltraining_1.jpg");
+}
+
+.sport_rotation_6{
     background-image: url("ausrustung_personaltraining_2.jpg");
 }
 

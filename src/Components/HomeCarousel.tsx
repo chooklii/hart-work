@@ -27,9 +27,13 @@ const HomeCarousel = () => {
             <TopImage
                 imageName="home_rotation_4"
                 noBox={true}
-            />           
-             <TopImage
+            />
+            <TopImage
                 imageName="home_rotation_5"
+                noBox={true}
+            />
+            <TopImage
+                imageName="home_rotation_6"
                 noBox={true}
             />
 
