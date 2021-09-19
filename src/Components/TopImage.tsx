@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect } from "react"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHashtag } from "@fortawesome/free-solid-svg-icons";
 
@@ -9,7 +9,9 @@ interface IProps {
     url?: string,
     text?: string,
     noBox?: boolean,
-    additionaltitle?: string
+    additionaltitle?: string,
+    id: number,
+    activeElement: number
 }
 
 const TopImage = (props: IProps) => {
@@ -18,6 +20,16 @@ const TopImage = (props: IProps) => {
     const mobileLink = props.link ? "carousel-link-mobile" : ""
     const hasLink = props.link ? "underline" : ""
     const headerShown = window.innerWidth >= 1200 ? true : false
+
+
+    if(props.id != props.activeElement){
+        return(
+            <div>
+
+            </div>
+        )
+    }
+    console.log(props.id, props.activeElement)
     return (
         <div>
             <div onClick={(!headerShown && props.link) ? () => window.open(props.url, '_blank') : null } className={imageClassName + " " + mobileLink}>
