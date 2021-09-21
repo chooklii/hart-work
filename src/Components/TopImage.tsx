@@ -29,7 +29,6 @@ const TopImage = (props: IProps) => {
             </div>
         )
     }
-    console.log(props.id, props.activeElement)
     return (
         <div>
             <div onClick={(!headerShown && props.link) ? () => window.open(props.url, '_blank') : null } className={imageClassName + " " + mobileLink}>
