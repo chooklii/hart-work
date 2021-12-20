@@ -97,8 +97,8 @@ const renderIconImprint = (): ReactFragment => {
             <Col className="center gray" xl={6} xxl={6} lg={6} md={12} sm={12} xs={24} key={keyGenerator()}>
                 <div className={"iconImprint " + single.icon} />
                 <p className="grey fontNormal">
-                    Erstellt von <a className="grey underline" target="_blank" href={single.ref}>{single.name}</a>
-                    <span> auf</span> <a className="grey underline" target="_blank" href="https://www.flaticon.com/">www.flaticon.com</a>
+                    Erstellt von <a className="grey underline link" target="_blank" href={single.ref}>{single.name}</a>
+                    <span> auf</span> <a className="grey underline link" target="_blank" href="https://www.flaticon.com/">www.flaticon.com</a>
 
                 </p>
             </Col>
@@ -141,7 +141,9 @@ const Impressum = () => {
                 <Row>
                     {renderIconImprint()}
                 </Row>
-
+                <p>Diese Webseite verwendet zur Verarbeitung der Nutzungsstatistiken <a className=" grey underline link" href="https://getinsights.io/" target="_blank">Insights</a>. Durch diese Anwendung werden keine personenbezogene Daten verarbeitet und von der Nutzung von Cookies zur Identifikation von Benutzern wird abgesehen.
+                    Weitere Informationen zum Umgang mit diesen Daten finden Sie in der <a className="grey underline link" href="https://getinsights.io/privacy" target="_blank">Datenschutzerklärung</a> von Insights.
+                </p>
             </div>
             <Footer />
         </div>
