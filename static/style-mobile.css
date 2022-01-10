@@ -234,4 +234,13 @@
         font-size: 100px;
         margin-top: 5%;
     }
+
+    .jobsimage{
+        width: 90%;   
+        height: 20vh;
+    }
+
+    .jobstext{
+        width: 90%;
+    }
 }

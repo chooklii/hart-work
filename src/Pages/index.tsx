@@ -4,7 +4,7 @@ import Sporttherapie from "./Sporttherapie"
 import Physiotherapie from "./Physiotherapie"
 import Impressum from "./Impressum"
 import Philosophie from "./Philosophie"
-
+import Jobs from "./Jobs"
 
 export {
     Home,
@@ -12,5 +12,6 @@ export {
     Sporttherapie,
     Physiotherapie,
     Impressum,
-    Philosophie
+    Philosophie,
+    Jobs
 }

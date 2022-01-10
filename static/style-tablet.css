@@ -251,6 +251,19 @@
         font-size: 100px;
         margin-top: 5%;
     }
+
+    .jobsimage{
+        width: 90%;   
+        height: 20vh;
+    }
+
+    .jobstext{
+        width: 90%;
+    }
+
+    .jobsimage_one{
+        background-position: top !important;
+    }
 }
 
 @media screen and (max-width: 768px) and (min-width: 481px) and (orientation : landscape)  {

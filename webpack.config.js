@@ -24,6 +24,12 @@ const paths  = [
     name: "philosophie",
     title: "#HARTWORK - Philosophie",
     description: "#HARTWORK - Philosophie "
+  },
+  {
+    name: "karriere",
+    title: "#HARTWORK - Karriere",
+    description: "Karriere bei #HARTWORK ",
+    noIndex: "noIndex"
   }
 ]
 

@@ -40,7 +40,7 @@ const team: TeamInfos[] = [{
         "Manuelle Lymphdrainage (ZML)",
         "Krankengymnastik am Gerät",
         "Osteopathie B.O. in Ausbildung (Inomt)",
-        "Heilpraktiker in Ausbildung (EOS)",
+        "Heilpraktiker (EOS)",
         "Manuelle Reflextherapie (Inomt)",
         "Therapeutisches Klettern",
         "MTC - Medical Tapering Concept",

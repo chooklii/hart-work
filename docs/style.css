@@ -248,7 +248,30 @@ body{
     display: none
 }
 
+.jobs{
+    margin-left: 5%;
+}
 
+.jobsimage_one{
+    background-image: url(../static/ems_training.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.jobsimage_two{
+    background-image: url(../static/paartraining.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.jobsimage{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block; 
+}
 /*Style Smartphone Layout*/
 
 @media screen and (max-width: 480px) {
@@ -485,6 +508,15 @@ body{
         font-size: 100px;
         margin-top: 5%;
     }
+
+    .jobsimage{
+        width: 90%;   
+        height: 20vh;
+    }
+
+    .jobstext{
+        width: 90%;
+    }
 }
 
 /*Style Desktop Layout*/
@@ -699,8 +731,6 @@ body{
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        width: 40px;
-        height: 40px;
         display: inline-block;  
     }
 
@@ -827,6 +857,40 @@ body{
         font-size: 150px;
         margin-top: 5%;
     }
+
+    .jobs_inline{
+        display: inline-flex;
+    }
+
+    .jobs_inline_two{
+        display: inline-flex;
+    }
+
+    .jobs_one{
+        width: 70%;
+    }
+
+    .jobsimage_one{
+        margin-top: -20%;
+        margin-left: 5%;
+    }
+
+    .jobsimage{
+        width: 400px;   
+        height: 30vh;
+    }
+
+    .jobs_block{
+        min-width: 100%;
+        margin-left: 5%;
+    }
+
+    .jobstext{
+        width: 60%;
+        margin-left: 20%;
+    }
+
+
 }
 
 /*Style Tablet Layout*/
@@ -1081,6 +1145,19 @@ body{
     .notFound_icon{
         font-size: 100px;
         margin-top: 5%;
+    }
+
+    .jobsimage{
+        width: 90%;   
+        height: 20vh;
+    }
+
+    .jobstext{
+        width: 90%;
+    }
+
+    .jobsimage_one{
+        background-position: top !important;
     }
 }
 
@@ -1349,6 +1426,19 @@ body{
     .notFound_icon{
         font-size: 100px;
         margin-top: 5%;
+    }
+
+    .jobsimage{
+        width: 90%;   
+        height: 20vh;
+    }
+
+    .jobsimage_one{
+        background-position: top !important;
+    }
+
+    .jobstext{
+        width: 90%;
     }
 }
 

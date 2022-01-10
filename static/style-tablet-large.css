@@ -256,6 +256,19 @@
         font-size: 100px;
         margin-top: 5%;
     }
+
+    .jobsimage{
+        width: 90%;   
+        height: 20vh;
+    }
+
+    .jobsimage_one{
+        background-position: top !important;
+    }
+
+    .jobstext{
+        width: 90%;
+    }
 }
 
 
