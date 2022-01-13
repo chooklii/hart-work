@@ -12,6 +12,8 @@ const Jobs = () => {
 
                 <div className="content jobs">
 
+                <h1 className="grey fontBold jobstext jobheading">Physiotherapie ist nicht gleich Physiotherapie!</h1>
+
                     <h2 className="red fontBold floatingheding">Physiotherapeut (w/m/d)</h2>
 
                     <ul>
@@ -52,6 +54,7 @@ const Jobs = () => {
                             <h4 className="red fontBold floatingheding">Aufgaben und Erwartungen</h4>
 
                             <ul className="jobs_one">
+                                <li className="grey fontNormal">examinierte/r Physioterapeut:in</li>
                                 <li className="grey fontNormal">Durchführung der Therapieeinheiten inkl. Befundgespräche</li>
                                 <li className="grey fontNormal">Behandlung von Patienten mit vielfältigen Diagnosen</li>
                                 <li className="grey fontNormal">Physiotherapeutische Befunderhebung</li>

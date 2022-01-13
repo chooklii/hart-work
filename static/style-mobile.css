@@ -243,4 +243,8 @@
     .jobstext{
         width: 90%;
     }
+
+    .textredmobile{
+        color: #70231d !important;
+    }
 }

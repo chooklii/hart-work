@@ -272,6 +272,22 @@ body{
     background-repeat: no-repeat;
     display: inline-block; 
 }
+
+.jobheading{
+    width: 90% !important;
+    margin-left: 0% !important;
+    text-align: center !important;
+}
+
+.joblink{
+    background-color: #70231d ;
+    color: white ;
+}
+
+.joblink:hover{
+    background-color: white;
+    color: #70231d
+}
 /*Style Smartphone Layout*/
 
 @media screen and (max-width: 480px) {
@@ -516,6 +532,10 @@ body{
 
     .jobstext{
         width: 90%;
+    }
+
+    .textredmobile{
+        color: #70231d !important;
     }
 }
 

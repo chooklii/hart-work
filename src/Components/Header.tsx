@@ -25,6 +25,7 @@ const Header = () => {
           <Link className="header-link button white fontBold" to="/physiotherapie/">Physiotherapie</Link>
           <Link className="header-link button white fontBold" to="/sporttherapie/">Sporttherapie</Link>
           <Link className="header-link button white fontBold" to="/philosophie/">Philosophie</Link>
+          <Link className="header-link button white fontBold" to="/karriere/">Karriere</Link>
           <Link className="header-link button white fontBold" to="/impressum/">Impressum</Link>
 
           <div className="socialmedia">
@@ -54,6 +55,7 @@ const Header = () => {
           <Link className="header-link button red fontBold" to="/physiotherapie/">Physiotherapie</Link>
           <Link className="header-link button red fontBold" to="/sporttherapie/">Sporttherapie</Link>
           <Link className="header-link button red fontBold" to="/philosophie/">Philosophie</Link>
+          <Link className="header-link button red fontBold joblink" to="/karriere/">Karriere</Link>
         </div>
       </div>
     </div>
