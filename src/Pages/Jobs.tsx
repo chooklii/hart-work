@@ -18,7 +18,7 @@ const Jobs = () => {
 
                     <ul>
                         <li className="grey fontNormal">Kombiniere die Physiotherapie mit der Sportwelt</li>
-                        <li className="grey fontNormal">Behandle nicht nur an der Bank, sondern top dich aus</li>
+                        <li className="grey fontNormal">Behandle nicht nur an der Bank, sondern tob dich aus</li>
                         <li className="grey fontNormal">Junges Unternehmen, das gerade geschlüpft ist und sich entwickeln will</li>
                         <li className="grey fontNormal">Richtig gutes Gehalt ist für uns selbstverständlich</li>
                     </ul>
