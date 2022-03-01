@@ -236,6 +236,10 @@ body{
     background-image: url(../static/icons/solo.png);
 }
 
+.emstraining{
+    background-image: url(../static/emstraining.jpeg);
+}
+
 .center{
     text-align: center;
 }
@@ -506,6 +510,18 @@ body{
         display: inline-block;  
     }
 
+    .textmobilebottom{
+        margin-top: 16vh !important; 
+    }
+
+    .emsHeading{
+        margin-left: 15%;
+    }
+
+    .emsInfoText{
+        margin-left: 5%;
+    }
+
     .header-logo{
         width: 100px;
         height: 100px;
@@ -754,6 +770,10 @@ body{
         width: 40px;
         height: 40px;
         display: inline-block;  
+    }
+
+    .marginbottom{
+        margin-bottom: 0px;
     }
 
     .singleOptionPhysio{
@@ -1181,6 +1201,15 @@ body{
     .jobsimage_one{
         background-position: top !important;
     }
+
+    .emsHeading{
+        margin-left: 15%;
+    }
+
+    .emsInfoText{
+        margin-left: 5%;
+    }
+    
 }
 
 @media screen and (max-width: 768px) and (min-width: 481px) and (orientation : landscape)  {
@@ -1457,6 +1486,14 @@ body{
 
     .jobsimage_one{
         background-position: top !important;
+    }
+
+    .emsHeading{
+        margin-left: 15%;
+    }
+
+    .emsInfoText{
+        margin-left: 5%;
     }
 
     .jobstext{
