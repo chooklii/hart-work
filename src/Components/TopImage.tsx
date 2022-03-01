@@ -11,6 +11,7 @@ interface IProps {
     noBox?: boolean,
     additionaltitle?: string,
     textred?:boolean,
+    boxbackground?: boolean,
     mobileBottom?: boolean,
     id: number,
     activeElement: number
@@ -24,6 +25,7 @@ const TopImage = (props: IProps) => {
     const headerShown = window.innerWidth >= 1200 ? true : false
     const textred = props.textred ? "textredmobile" : ""
     const mobileBottom = props.mobileBottom ? "textmobilebottom" : ""
+    const mobileBoxBackground = props.boxbackground ? "mobilebackground" : ""
 
     if(props.id != props.activeElement){
         return(
@@ -37,7 +39,7 @@ const TopImage = (props: IProps) => {
             <div onClick={(!headerShown && props.link) ? () => window.open(props.url, '_blank') : null } className={imageClassName + " " + mobileLink}>
             {!props.noBox &&
                 <div onClick={(headerShown && props.link) ? () => window.open(props.url, '_blank') : undefined } className={"heading-image-box " + desktopLink}>
-                    <div className={"headingBox " + mobileBottom}>
+                    <div className={"headingBox " + mobileBottom  + " " + mobileBoxBackground}>
 
                         <div className={"hashtag red mobileWhite " + textred}>
                             <FontAwesomeIcon icon={faHashtag} />

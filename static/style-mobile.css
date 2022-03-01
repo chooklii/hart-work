@@ -259,4 +259,8 @@
     .textredmobile{
         color: #70231d !important;
     }
+
+    .mobilebackground{
+        background: rgba(255, 255, 255, 0.4);
+    }
 }

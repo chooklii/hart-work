@@ -13,7 +13,9 @@ const Ems = () => {
                 <TopImage
                 imageName="emstraining"
                 id={0}
+                boxbackground={true}
                 mobileBottom={true}
+                textred={true}
                 title={"EMS-Training"}
                 activeElement={0}
                 text={"In 20 Minuten fit sein? Kein Problem!"}
