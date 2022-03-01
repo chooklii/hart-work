@@ -264,6 +264,15 @@
     .jobsimage_one{
         background-position: top !important;
     }
+
+    .emsHeading{
+        margin-left: 15%;
+    }
+
+    .emsInfoText{
+        margin-left: 5%;
+    }
+    
 }
 
 @media screen and (max-width: 768px) and (min-width: 481px) and (orientation : landscape)  {

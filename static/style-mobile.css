@@ -216,6 +216,18 @@
         display: inline-block;  
     }
 
+    .textmobilebottom{
+        margin-top: 16vh !important; 
+    }
+
+    .emsHeading{
+        margin-left: 15%;
+    }
+
+    .emsInfoText{
+        margin-left: 5%;
+    }
+
     .header-logo{
         width: 100px;
         height: 100px;

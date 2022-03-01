@@ -236,6 +236,10 @@ body{
     background-image: url("icons/solo.png");
 }
 
+.emstraining{
+    background-image: url("emstraining.jpeg");
+}
+
 .center{
     text-align: center;
 }

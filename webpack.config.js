@@ -30,6 +30,11 @@ const paths  = [
     title: "#HARTWORK - Karriere",
     description: "Karriere bei #HARTWORK ",
     noIndex: "noIndex"
+  },
+  {
+    name: "ems",
+    title: "#HARTWORK - EMS Training",
+    description: "EMS-Training bei #HARTWORK ",
   }
 ]
 

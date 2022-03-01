@@ -266,6 +266,14 @@
         background-position: top !important;
     }
 
+    .emsHeading{
+        margin-left: 15%;
+    }
+
+    .emsInfoText{
+        margin-left: 5%;
+    }
+
     .jobstext{
         width: 90%;
     }

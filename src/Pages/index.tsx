@@ -5,6 +5,7 @@ import Physiotherapie from "./Physiotherapie"
 import Impressum from "./Impressum"
 import Philosophie from "./Philosophie"
 import Jobs from "./Jobs"
+import Ems from "./EMS"
 
 export {
     Home,
@@ -13,5 +14,6 @@ export {
     Physiotherapie,
     Impressum,
     Philosophie,
-    Jobs
+    Jobs,
+    Ems
 }
