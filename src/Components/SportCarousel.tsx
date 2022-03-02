@@ -17,6 +17,7 @@ const SportCarousel = () => {
                 id={0}
                 activeElement={activeElement}
             />
+            {/*
             <TopImage
                 imageName="sport_rotation_1"
                 title="EMS"
@@ -25,36 +26,37 @@ const SportCarousel = () => {
                 id={1}
                 activeElement={activeElement}
             />
+            */}
 
             <TopImage
                 imageName="sport_rotation_2"
                 noBox={true}
-                id={2}
+                id={1}
                 activeElement={activeElement}
             />
 
             <TopImage
                 imageName="sport_rotation_3"
                 noBox={true}
-                id={3}
+                id={2}
                 activeElement={activeElement}
             />
             <TopImage
                 imageName="sport_rotation_4"
                 noBox={true}
-                id={4}
+                id={3}
                 activeElement={activeElement}
             />
             <TopImage
                 imageName="sport_rotation_5"
                 noBox={true}
-                id={5}
+                id={4}
                 activeElement={activeElement}
             />
             <TopImage
                 imageName="sport_rotation_6"
                 noBox={true}
-                id={6}
+                id={5}
                 activeElement={activeElement}
             />
         </Carousel>
