@@ -16,7 +16,7 @@ const team: TeamInfos[] = [{
     name: "Madeleine Perner",
     image: "madeleine",
     general: [
-        "Sporttherapeutin (Berufskolleg Waldenburg)",
+        "Sport- und Gymnastiklehrerin (Berufskolleg Waldenburg)",
         "Physiotherapeutin (Berufskolleg Waldenburg)"
     ],
     qualifications: [
