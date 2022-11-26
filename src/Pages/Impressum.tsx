@@ -141,9 +141,6 @@ const Impressum = () => {
                 <Row>
                     {renderIconImprint()}
                 </Row>
-                <p>Diese Webseite verwendet zur Verarbeitung der Nutzungsstatistiken <a className=" grey underline link" href="https://getinsights.io/" target="_blank">Insights</a>. Durch diese Anwendung werden keine personenbezogene Daten verarbeitet und von der Nutzung von Cookies zur Identifikation von Benutzern wird abgesehen.
-                    Weitere Informationen zum Umgang mit diesen Daten finden Sie in der <a className="grey underline link" href="https://getinsights.io/privacy" target="_blank">Datenschutzerklärung</a> von Insights.
-                </p>
             </div>
             <Footer />
         </div>
