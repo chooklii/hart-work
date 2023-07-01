@@ -35,6 +35,7 @@ const team: TeamInfos[] = [
     name: "Anna Saida",
     image: "anna",
     general: [
+        "Physiotherapeutin (SRH Fachschule Stuttgart)",
         "Sport- und Fitnesskauffrau / Fitness Trainerin"
     ],
     qualifications: [
@@ -47,6 +48,7 @@ const team: TeamInfos[] = [
     image: "stefan",
     general: [
         "Physiotherapeut (Berufskolleg Waldenburg)",
+        "Heilpraktiker"
     ],
     qualifications: [
         "Manuelle Therapie (Inomt)",

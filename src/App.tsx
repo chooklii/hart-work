@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from "react-router-dom"
 import ScrollToTop from "./ScrollToTop"
-import { Home, NotFound, Physiotherapie, Sporttherapie, Philosophie,Impressum, Jobs, Ems, NewHome} from "./Pages"
+import { Home, NotFound, Physiotherapie, Sporttherapie, Philosophie,Impressum, Jobs, Ems} from "./Pages"
 
 import "../static/style-general.css"
 import "../static/style-mobile.css"
@@ -23,14 +23,6 @@ class App extends React.Component {
                                 <Home />
                             </ScrollToTop>
                         </Route>
-
-                        <Route exact path="/lilolinchen">
-                            <ScrollToTop>
-                                <NewHome/>
-                            </ScrollToTop>
-                        </Route>
-
-
                         <Route exact path="/physiotherapie">
                             <ScrollToTop>
                                 <Physiotherapie/>
