@@ -263,4 +263,12 @@
     .mobilebackground{
         background: rgba(255, 255, 255, 0.4);
     }
+
+    .nobottom{
+        margin-bottom: 0px
+    }
+
+    .teamsubtitle{
+        margin-bottom: 0.5em;   
+    }
 }

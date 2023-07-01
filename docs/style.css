@@ -66,13 +66,38 @@ body{
 }
 
 .stefan{
-    background-image: url(../static/stefan.jpg);
+    background-image: url(../static/stefan.jpeg);
+    background-position: 6% 6% !important
+}
+
+.kristina{
+    background-image: url(../static/kristina.jpeg);
+    background-position: 6% 6% !important
+}
+
+.ann-paulin{
+    background-image: url(../static/ann-paulin.jpeg);
+    background-position: 6% 6% !important
+}
+
+.maxine1{
+    background-image: url(../static/maxine1.jpeg);
+    background-position: 6% 6% !important
+}
+
+.maxine2{
+    background-image: url(../static/maxin2.jpeg);
     background-position: 6% 6% !important
 }
 
 
 .madeleine{
-    background-image: url(../static/madeleine.jpg);
+    background-image: url(../static/madeleine.jpeg);
+    background-position: 17% 17% !important
+}
+
+.anna{
+    background-image: url(../static/anna.jpeg);
     background-position: 17% 17% !important
 }
 
@@ -102,8 +127,8 @@ body{
 }
 
 .home_rotation_4{
-    background-image: url(../static/team_hartwork.jpg);
-    background-position: 0% 20% !important
+    background-image: url(../static/teamHartwork.jpeg);
+    background-position: 0% 10% !important
 }
 
 .homeBottomImage{
@@ -557,6 +582,14 @@ body{
     .mobilebackground{
         background: rgba(255, 255, 255, 0.4);
     }
+
+    .nobottom{
+        margin-bottom: 0px
+    }
+
+    .teamsubtitle{
+        margin-bottom: 0.5em;   
+    }
 }
 
 /*Style Desktop Layout*/
@@ -673,6 +706,15 @@ body{
 
     .imageHeading{
         font-size: 30px;    
+    }
+
+    .teamsubtitle{
+        margin-bottom: 0.5em;
+        min-height: 25px
+    }
+
+    .nobottom{
+        margin-bottom: 0px
     }
 
     .heading{
@@ -1213,6 +1255,14 @@ body{
     .emsInfoText{
         margin-left: 5%;
     }
+
+    .nobottom{
+        margin-bottom: 0px
+    }
+
+    .teamsubtitle{
+        margin-bottom: 0.5em;   
+    }
     
 }
 
@@ -1502,6 +1552,14 @@ body{
 
     .jobstext{
         width: 90%;
+    }
+
+    .nobottom{
+        margin-bottom: 0px
+    }
+
+    .teamsubtitle{
+        margin-bottom: 0.5em;   
     }
 }
 

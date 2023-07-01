@@ -277,6 +277,14 @@
     .jobstext{
         width: 90%;
     }
+
+    .nobottom{
+        margin-bottom: 0px
+    }
+
+    .teamsubtitle{
+        margin-bottom: 0.5em;   
+    }
 }
 
 

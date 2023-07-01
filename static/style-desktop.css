@@ -114,6 +114,15 @@
         font-size: 30px;    
     }
 
+    .teamsubtitle{
+        margin-bottom: 0.5em;
+        min-height: 25px
+    }
+
+    .nobottom{
+        margin-bottom: 0px
+    }
+
     .heading{
         margin-top: 10px;
         margin-bottom: 0;

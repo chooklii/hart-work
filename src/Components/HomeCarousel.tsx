@@ -11,13 +11,21 @@ const HomeCarousel = () => {
             beforeChange={(_, next) => setActiveElement(next)}
             effect="fade"
             autoplay>
+                            <TopImage
+                imageName="homeImage"
+                title="Physiotherapie & Personaltraining"
+                additionaltitle=""
+                text=""
+                id={0}
+                activeElement={activeElement}
+            />
             <TopImage
                 imageName="sport_rotation_1"
                 title="EMS-Training"
                 link={true}
                 url="/ems/"
                 text="Jetzt Termin buchen!"
-                id={0}
+                id={1}
                 activeElement={activeElement}
             />
             <TopImage
@@ -26,38 +34,30 @@ const HomeCarousel = () => {
                 url="/karriere/"
                 title="Karriere"
                 text="Komm in unser Team!"
-                id={1}
+                id={2}
                 textred
                 activeElement={activeElement}
             />
-            <TopImage
-                imageName="homeImage"
-                title="Physiotherapie & Personaltraining"
-                additionaltitle=""
-                text=""
-                id={2}
-                activeElement={activeElement}
-            />
-            <TopImage
-                imageName="home_rotation_1"
+                        <TopImage
+                imageName="home_rotation_4"
                 noBox={true}
                 id={3}
                 activeElement={activeElement}
             />
             <TopImage
-                imageName="home_rotation_2"
+                imageName="home_rotation_1"
                 noBox={true}
                 id={4}
                 activeElement={activeElement}
             />
             <TopImage
-                imageName="home_rotation_3"
+                imageName="home_rotation_2"
                 noBox={true}
                 id={5}
                 activeElement={activeElement}
             />
             <TopImage
-                imageName="home_rotation_4"
+                imageName="home_rotation_3"
                 noBox={true}
                 id={6}
                 activeElement={activeElement}

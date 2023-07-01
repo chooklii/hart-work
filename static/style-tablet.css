@@ -272,6 +272,14 @@
     .emsInfoText{
         margin-left: 5%;
     }
+
+    .nobottom{
+        margin-bottom: 0px
+    }
+
+    .teamsubtitle{
+        margin-bottom: 0.5em;   
+    }
     
 }
 

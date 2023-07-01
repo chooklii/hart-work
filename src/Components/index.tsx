@@ -11,6 +11,7 @@ import Footer from "./Footer"
 import HomeCarousel from "./HomeCarousel"
 import PhysioCarousel from "./PhysioCarousel"
 import SportCarousel from "./SportCarousel"
+import AdditionalTeam from "./AdditionalTeam"
 
 export {
     Header,
@@ -25,5 +26,6 @@ export {
     Footer,
     HomeCarousel,
     SportCarousel,
-    PhysioCarousel
+    PhysioCarousel,
+    AdditionalTeam
 }

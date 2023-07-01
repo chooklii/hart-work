@@ -66,13 +66,38 @@ body{
 }
 
 .stefan{
-    background-image: url("./stefan.jpg");
+    background-image: url("./stefan.jpeg");
+    background-position: 6% 6% !important
+}
+
+.kristina{
+    background-image: url("./kristina.jpeg");
+    background-position: 6% 6% !important
+}
+
+.ann-paulin{
+    background-image: url("./ann-paulin.jpeg");
+    background-position: 6% 6% !important
+}
+
+.maxine1{
+    background-image: url("./maxine1.jpeg");
+    background-position: 6% 6% !important
+}
+
+.maxine2{
+    background-image: url("./maxin2.jpeg");
     background-position: 6% 6% !important
 }
 
 
 .madeleine{
-    background-image: url("./madeleine.jpg");
+    background-image: url("./madeleine.jpeg");
+    background-position: 17% 17% !important
+}
+
+.anna{
+    background-image: url("./anna.jpeg");
     background-position: 17% 17% !important
 }
 
@@ -102,8 +127,8 @@ body{
 }
 
 .home_rotation_4{
-    background-image: url("./team_hartwork.jpg");
-    background-position: 0% 20% !important
+    background-image: url("./teamHartwork.jpeg");
+    background-position: 0% 10% !important
 }
 
 .homeBottomImage{

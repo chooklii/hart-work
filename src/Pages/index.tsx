@@ -6,6 +6,7 @@ import Impressum from "./Impressum"
 import Philosophie from "./Philosophie"
 import Jobs from "./Jobs"
 import Ems from "./EMS"
+import NewHome from "./NewHome"
 
 export {
     Home,
@@ -15,5 +16,6 @@ export {
     Impressum,
     Philosophie,
     Jobs,
-    Ems
+    Ems,
+    NewHome
 }

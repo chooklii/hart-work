@@ -1,9 +1,9 @@
 
 import React from "react"
-import { Basics, Header, BottomImage, Team, Footer, HomeCarousel} from "../Components"
+import { Basics, Header, BottomImage, Team, Footer, HomeCarousel, AdditionalTeam} from "../Components"
 import Helmet from 'react-helmet';
 
-const Home = () => {
+const NewHome = () => {
     return(
         <div>
             <Helmet>
@@ -17,6 +17,7 @@ const Home = () => {
                 imageName= "homeBottomImage"
             />
             <Team/>
+            <AdditionalTeam/>
             </div>
             <Footer/>
 
@@ -24,4 +25,4 @@ const Home = () => {
     )
 }
 
-export default Home
+export default NewHome
