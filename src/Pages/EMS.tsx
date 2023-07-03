@@ -14,7 +14,7 @@ const Ems = () => {
                 imageName="emstraining"
                 id={0}
                 boxbackground={true}
-                mobileBottom={true}
+                mobileBottom={false}
                 textred={true}
                 title={"EMS-Training"}
                 activeElement={0}
