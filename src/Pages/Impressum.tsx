@@ -122,7 +122,7 @@ const Impressum = () => {
                 <p className="grey fontNormal imprintfloat">74632 Neuenstein</p>
 
                 <p className="grey fontNormal imprintfloat">Vertreten durch:</p>
-                <p className="grey fontNormal imprintfloat">Madeleine Perner und Stefan Kramer</p>
+                <p className="grey fontNormal imprintfloat">Madeleine Zenth und Stefan Kramer</p>
 
                 <p className="red fontBold floatingheading">Kontakt</p>
                 <p className="grey fontNormal imprintfloat">Telefon: 07942/7941459</p>
