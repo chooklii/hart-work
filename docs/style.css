@@ -590,6 +590,10 @@ body{
     .teamsubtitle{
         margin-bottom: 0.5em;   
     }
+
+    .margin50top{
+        margin-top: 50px
+    }
 }
 
 /*Style Desktop Layout*/

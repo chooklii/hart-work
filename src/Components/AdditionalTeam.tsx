@@ -10,19 +10,19 @@ const keyGenerator = (): ReactText =>
 
 const team: AdditionalTeam[] = [
     {
-        name: "Ann-Pauline",
+        name: "Ann-Pauline Kramer",
         image: "ann-pauline"
     },
     {
-        name: "Elke",
+        name: "Elke Rinke",
         image: "elke"
     },
     {
-        name: "Kristina",
+        name: "Kristina Perner",
         image: "kristina"
     },
     {
-        name: "Ulrike",
+        name: "Ulrike Powilleit",
         image: "ulrike"
     }
 
@@ -44,7 +44,7 @@ const renderMember = (): ReactFragment => {
 const AdditionalTeam = () => {
     return (
         <div>
-        <h2 className="red fontBold subheading center margin50 pricesize">Anmeldung</h2>
+        <h2 className="red fontBold subheading center margin50 margin50top pricesize">Anmeldung</h2>
         <div className="team">
             {renderMember()}
         </div>

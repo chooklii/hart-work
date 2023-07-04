@@ -14,6 +14,26 @@ const keyGenerator = (): ReactText =>
 
 const team: TeamInfos[] = [
     {
+        name: "Stefan Kramer",
+        image: "stefan",
+        general: [
+            "Physiotherapeut (Berufskolleg Waldenburg)",
+            "Heilpraktiker"
+        ],
+        qualifications: [
+            "Manuelle Therapie (Inomt)",
+            "Bobath (KG-ZNS) (Ibitha)",
+            "Manuelle Lymphdrainage (ZML)",
+            "Krankengymnastik am Gerät",
+            "Osteopathie B.O. in Ausbildung (Inomt)",
+            "Heilpraktiker (EOS)",
+            "Manuelle Reflextherapie (Inomt)",
+            "Therapeutisches Klettern",
+            "MTC - Medical Tapering Concept",
+            "Faszien Dysfunktion Methode (Inomt)"
+        ]
+    },
+    {
     name: "Madeleine Zenth",
     subtitle: "(geb. Perner)",
     image: "madeleine",
@@ -31,6 +51,7 @@ const team: TeamInfos[] = [
         "Erlebnispädagogik / Erlebnissport"
     ]
 }, 
+
 {
     name: "Anna Saida",
     image: "anna",
@@ -42,27 +63,7 @@ const team: TeamInfos[] = [
         "Manuelle Lymphdrainage",
         "Manuelle Therapie in Ausbildung"
     ] 
-},
-{
-    name: "Stefan Kramer",
-    image: "stefan",
-    general: [
-        "Physiotherapeut (Berufskolleg Waldenburg)",
-        "Heilpraktiker"
-    ],
-    qualifications: [
-        "Manuelle Therapie (Inomt)",
-        "Bobath (KG-ZNS) (Ibitha)",
-        "Manuelle Lymphdrainage (ZML)",
-        "Krankengymnastik am Gerät",
-        "Osteopathie B.O. in Ausbildung (Inomt)",
-        "Heilpraktiker (EOS)",
-        "Manuelle Reflextherapie (Inomt)",
-        "Therapeutisches Klettern",
-        "MTC - Medical Tapering Concept",
-        "Faszien Dysfunktion Methode (Inomt)"
-    ]
-}]
+},]
 
 const renderMember = (): ReactFragment => {
     return team.map((member: TeamInfos) => {
@@ -92,8 +93,11 @@ const renderMember = (): ReactFragment => {
 
 const Team = () => {
     return (
+        <div>
+        <h2 className="red fontBold subheading center margin50 pricesize">Therapeuten</h2>
         <div className="team">
             {renderMember()}
+        </div>
         </div>
     )
 }
