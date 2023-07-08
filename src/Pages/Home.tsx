@@ -12,6 +12,10 @@ const Home = () => {
             <Header/>
             <div className="content">
             <HomeCarousel/>
+            <div className="centerdiv mobileCenter marginTopBottom">
+            <h2 className="green fontBold subheading nobottom mobileSmaler center">"Nur wer sein Ziel kennt, findet den Weg!"</h2>
+            <h4 className="green floatright">Laotse</h4>
+            </div>
             <Basics/>
             <BottomImage
                 imageName= "homeBottomImage"

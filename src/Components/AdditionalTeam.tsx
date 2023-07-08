@@ -33,7 +33,7 @@ const renderMember = (): ReactFragment => {
     return team.map((member: AdditionalTeam) => {
         return(
             <div key={keyGenerator()} className="singleMember">
-                <h2 className="red fontBold center subheading nobottom">#{member.name}</h2>
+                <h2 className="red fontBold center subheading nobottom size28">#{member.name}</h2>
                 <div className={"teamimage " + member.image}/>
             </div>
         )

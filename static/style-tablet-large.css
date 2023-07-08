@@ -266,6 +266,12 @@
         background-position: top !important;
     }
 
+    .mobileCenter{
+        margin-left: 5%;
+        width: 90%;
+    }
+
+
     .emsHeading{
         margin-left: 15%;
     }

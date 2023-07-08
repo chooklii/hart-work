@@ -17,12 +17,25 @@ body{
     margin: 0
 }
 
+
+.floatright{
+    float: right
+}
+
+.kursiv{
+    font-style: italic;
+}
+
 .red{
     color: #70231d;
 }
 
 .grey{
     color: #5b5b5b
+}
+
+.green{
+    color: #4d663f
 }
 
 .burger{
@@ -587,6 +600,20 @@ body{
         margin-bottom: 0px
     }
 
+    .marginTopBottom{
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+    .mobileSmaler{
+        font-size: 20px !important;
+    }
+
+    .mobileCenter{
+        margin-left: 5%;
+        width: 90%;
+    }
+
     .teamsubtitle{
         margin-bottom: 0.5em;   
     }
@@ -597,6 +624,15 @@ body{
 }
 
 /*Style Desktop Layout*/
+
+@media screen and (min-width: 1200px) and (max-width: 1350px) {
+
+.size28{
+    font-size: 27px !important;
+    }
+
+}
+
 
 @media screen and (min-width: 1200px) {
 
@@ -736,6 +772,17 @@ body{
         margin-top: 0;
     }
 
+
+    .marginTopBottom{
+        margin-top: 1%;
+        margin-bottom: 1%
+    }
+
+    .centerdiv{
+        width: fit-content;
+        margin: auto;
+    }
+
     .hashtag{
         font-size: 170px;
         line-height: 150px;
@@ -747,7 +794,6 @@ body{
     }
 
     .basics{
-        margin-top: 2%;
         min-height: 30vh;
         width: 100%;
         display: inline-flex
@@ -933,6 +979,11 @@ body{
 
     .pricesize{
         font-size: 40px;
+    }
+
+    .marginBottomTop{
+        margin-top: 1%;
+        margin-bottom: 1%;
     }
 
     .philosophie{
@@ -1238,6 +1289,12 @@ body{
         font-size: 100px;
         margin-top: 5%;
     }
+
+    .mobileCenter{
+        margin-left: 5%;
+        width: 90%;
+    }
+
 
     .jobsimage{
         width: 90%;   
@@ -1545,6 +1602,12 @@ body{
     .jobsimage_one{
         background-position: top !important;
     }
+
+    .mobileCenter{
+        margin-left: 5%;
+        width: 90%;
+    }
+
 
     .emsHeading{
         margin-left: 15%;

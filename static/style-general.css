@@ -17,12 +17,25 @@ body{
     margin: 0
 }
 
+
+.floatright{
+    float: right
+}
+
+.kursiv{
+    font-style: italic;
+}
+
 .red{
     color: #70231d;
 }
 
 .grey{
     color: #5b5b5b
+}
+
+.green{
+    color: #4d663f
 }
 
 .burger{
