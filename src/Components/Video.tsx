@@ -24,7 +24,7 @@ const Video = () => {
                 controls
                 playing
                 light
-                muted
+                fileConfig={{ attributes: { autoPlay: true }}}
                 playIcon={<PlayButton/>}
                 className="videoPlayerComponent"
                 url="https://hart-work.de/trailer.mp4" /> 
