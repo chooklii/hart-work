@@ -24,6 +24,7 @@ const Video = () => {
                 controls
                 playing
                 light
+                playsinline
                 playIcon={<PlayButton/>}
                 className="videoPlayerComponent"
                 url="https://hart-work.de/trailer.mp4" /> 
