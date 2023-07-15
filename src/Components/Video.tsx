@@ -27,7 +27,7 @@ const Video = () => {
                 light
                 playIcon={<PlayButton/>}
                 className="videoPlayerComponent"
-                url="http://localhost:9000/trailer.mp4" /> 
+                url="https://hart-work.de/trailer.mp4" /> 
         </div>
     )
 
