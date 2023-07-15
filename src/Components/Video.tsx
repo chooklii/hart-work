@@ -11,7 +11,7 @@ const Video = () => {
         return(
             <div>
             <div className="playButton">
-                <FontAwesomeIcon className="basicIcon red playIcon" icon={faPlay}/>
+                <FontAwesomeIcon onClick={() => setPlaying(true)} className="basicIcon red playIcon" icon={faPlay}/>
                 <h2  className="red fontBold center">#Imagefilm</h2>
             </div>
             </div>
@@ -22,7 +22,6 @@ const Video = () => {
         <div className={playing ? "" : "playButtonImage"}>
             <ReactPlayer
                 controls
-                onPlay={() => setPlaying(true)}
                 playing
                 light
                 playIcon={<PlayButton/>}
