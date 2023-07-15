@@ -266,6 +266,11 @@
         background-position: top !important;
     }
 
+    
+.videoPlayerComponent{
+    width: 100% !important;
+}
+
     .mobileCenter{
         margin-left: 5%;
         width: 90%;

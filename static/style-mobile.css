@@ -77,13 +77,6 @@
         margin-left: 10px;
     }
 
-    .headingBox{
-        display: inline-flex;
-        margin-top: 10vh;
-        width: 98%;
-        margin-left: 1%;
-    }
-
     .heading{
         margin-bottom: 0;
     }
@@ -216,6 +209,10 @@
         display: inline-block;  
     }
 
+.headingBox{
+    display: none
+}
+
     .textmobilebottom{
         margin-top: 16vh !important; 
     }
@@ -289,4 +286,9 @@
     .margin50top{
         margin-top: 50px
     }
+
+    
+.videoPlayerComponent{
+    width: 100% !important;
+}
 }

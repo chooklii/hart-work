@@ -61,7 +61,7 @@ const Jobs = () => {
                                 <li className="grey fontNormal">Therapiebegleitende Beratung</li>
                                 <li className="grey fontNormal">Erstellung von Behandlung- und Therapieberichten</li>
                                 <li className="grey fontNormal">Sicheres und patientenorientiertes Arbeiten</li>
-                                <li className="grey fontNormal">PKW und Führerschein für HB</li>
+                                <li className="grey fontNormal">PKW und Führerschein für HB (nicht zwingend)</li>
                                 <li className="grey fontNormal">Fortbildungen z.B. MLD, MT, KG- ZNS erwünscht (nicht zwingend)</li>
                             </ul>
                         </div>

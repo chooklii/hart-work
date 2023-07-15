@@ -115,6 +115,11 @@
         font-size: 3vw !important;
     }
 
+    .videoPlayerComponent{
+        margin: auto;
+        width: 100%;
+    }
+
     .headingBox{
         display: inline-flex
     }

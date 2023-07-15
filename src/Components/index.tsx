@@ -12,6 +12,7 @@ import HomeCarousel from "./HomeCarousel"
 import PhysioCarousel from "./PhysioCarousel"
 import SportCarousel from "./SportCarousel"
 import AdditionalTeam from "./AdditionalTeam"
+import Video from "./Video"
 
 export {
     Header,
@@ -27,5 +28,6 @@ export {
     HomeCarousel,
     SportCarousel,
     PhysioCarousel,
-    AdditionalTeam
+    AdditionalTeam,
+    Video
 }

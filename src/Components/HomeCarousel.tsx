@@ -2,6 +2,7 @@
 import React, { useState } from "react"
 import { TopImage } from "../Components"
 import { Carousel } from "antd"
+import ReactPlayer from "react-player"
 
 
 const HomeCarousel = () => {
@@ -11,7 +12,7 @@ const HomeCarousel = () => {
             beforeChange={(_, next) => setActiveElement(next)}
             effect="fade"
             autoplay>
-                            <TopImage
+            <TopImage
                 imageName="homeImage"
                 title="Physiotherapie & Personaltraining"
                 additionaltitle=""
@@ -38,7 +39,7 @@ const HomeCarousel = () => {
                 textred
                 activeElement={activeElement}
             />
-                        <TopImage
+            <TopImage
                 imageName="home_rotation_4"
                 noBox={true}
                 id={3}

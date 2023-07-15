@@ -330,3 +330,25 @@ body{
     background-color: white;
     color: #70231d
 }
+
+
+
+.playButton{
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 20px;
+    padding: 10px
+}
+
+.playIcon{
+    margin: auto;
+    width: 100% !important;
+}
+
+.playButtonImage{
+    background-image: url("./paartraining.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+}

@@ -286,6 +286,12 @@
     .teamsubtitle{
         margin-bottom: 0.5em;   
     }
+
+    
+
+.videoPlayerComponent{
+    width: 100% !important;
+}
     
 }
 
