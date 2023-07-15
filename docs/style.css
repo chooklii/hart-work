@@ -330,6 +330,28 @@ body{
     background-color: white;
     color: #70231d
 }
+
+
+
+.playButton{
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 20px;
+    padding: 10px
+}
+
+.playIcon{
+    margin: auto;
+    width: 100% !important;
+}
+
+.playButtonImage{
+    background-image: url(../static/paartraining.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+}
 /*Style Smartphone Layout*/
 
 @media screen and (max-width: 480px) {
@@ -407,13 +429,6 @@ body{
         font-size: 70px;
         line-height: 80px;
         margin-left: 10px;
-    }
-
-    .headingBox{
-        display: inline-flex;
-        margin-top: 10vh;
-        width: 98%;
-        margin-left: 1%;
     }
 
     .heading{
@@ -548,6 +563,10 @@ body{
         display: inline-block;  
     }
 
+.headingBox{
+    display: none
+}
+
     .textmobilebottom{
         margin-top: 16vh !important; 
     }
@@ -621,6 +640,11 @@ body{
     .margin50top{
         margin-top: 50px
     }
+
+    
+.videoPlayerComponent{
+    width: 100% !important;
+}
 }
 
 /*Style Desktop Layout*/
@@ -738,6 +762,11 @@ body{
 
     .imageHeading{
         font-size: 3vw !important;
+    }
+
+    .videoPlayerComponent{
+        margin: auto;
+        width: 100%;
     }
 
     .headingBox{
@@ -1324,6 +1353,12 @@ body{
     .teamsubtitle{
         margin-bottom: 0.5em;   
     }
+
+    
+
+.videoPlayerComponent{
+    width: 100% !important;
+}
     
 }
 
@@ -1602,6 +1637,11 @@ body{
     .jobsimage_one{
         background-position: top !important;
     }
+
+    
+.videoPlayerComponent{
+    width: 100% !important;
+}
 
     .mobileCenter{
         margin-left: 5%;
