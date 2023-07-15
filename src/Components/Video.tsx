@@ -12,7 +12,7 @@ const Video = () => {
             <div>
             <div className="playButton">
                 <FontAwesomeIcon className="basicIcon red playIcon" icon={faPlay}/>
-                <h2  className="red fontBold">#Imagefilm</h2>
+                <h2  className="red fontBold center">#Imagefilm</h2>
             </div>
             </div>
         )

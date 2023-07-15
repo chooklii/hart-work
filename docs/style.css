@@ -644,6 +644,7 @@ body{
     
 .videoPlayerComponent{
     width: 100% !important;
+    height: 240px !important;
 }
 }
 
