@@ -14,10 +14,6 @@ const team: AdditionalTeam[] = [
         image: "ann-pauline"
     },
     {
-        name: "Elke Rinke",
-        image: "elke"
-    },
-    {
         name: "Kristina Perner",
         image: "kristina"
     },

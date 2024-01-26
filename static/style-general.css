@@ -93,14 +93,14 @@ body{
     background-position: 6% 6% !important
 }
 
-.elke{
-    background-image: url("./elke.jpeg");
-    background-position: 6% 6% !important
-}
-
 .ulrike{
     background-image: url("./ulrike.jpeg");
     background-position: 6% 6% !important
+}
+
+.lasse{
+    background-image: url("./lasse.jpeg");
+    background-position: 20% 6% !important
 }
 
 

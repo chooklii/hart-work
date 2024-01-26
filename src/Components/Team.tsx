@@ -51,7 +51,6 @@ const team: TeamInfos[] = [
         "Erlebnispädagogik / Erlebnissport"
     ]
 }, 
-
 {
     name: "Anna Saida",
     image: "anna",
@@ -63,7 +62,20 @@ const team: TeamInfos[] = [
         "Manuelle Lymphdrainage",
         "Manuelle Therapie in Ausbildung"
     ] 
-},]
+},
+{
+    name: "Lasse",
+    image: "lasse",
+    general: [
+        "Physiotherapeutin (SRH Fachschule Stuttgart)",
+        "Sport- und Fitnesskauffrau / Fitness Trainerin"
+    ],
+    qualifications: [
+        "Manuelle Lymphdrainage",
+        "Manuelle Therapie in Ausbildung"
+    ] 
+},
+]
 
 const renderMember = (): ReactFragment => {
     return team.map((member: TeamInfos) => {
