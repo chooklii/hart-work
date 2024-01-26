@@ -64,11 +64,10 @@ const team: TeamInfos[] = [
     ] 
 },
 {
-    name: "Lasse",
+    name: "Lasse Leben",
     image: "lasse",
     general: [
-        "Physiotherapeutin (SRH Fachschule Stuttgart)",
-        "Sport- und Fitnesskauffrau / Fitness Trainerin"
+        "Physiotherapeut (Berufskolleg Waldenburg)",
     ],
     qualifications: [
         "Manuelle Lymphdrainage",
