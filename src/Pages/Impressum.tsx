@@ -125,7 +125,7 @@ const Impressum = () => {
                 <p className="grey fontNormal imprintfloat">Madeleine Zenth und Stefan Kramer</p>
 
                 <p className="red fontBold floatingheading">Kontakt</p>
-                <p className="grey fontNormal imprintfloat">Telefon: 07942/7941459</p>
+                <p className="grey fontNormal imprintfloat">Telefon: 07942/711 98 77</p>
                 <p className="grey fontNormal imprintfloat">E-Mail: info@hart-work.de</p>
 
                 <h3 className="red fontBold floatingheading">Warnhinweise zu Inhalten</h3>
