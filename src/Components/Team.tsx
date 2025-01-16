@@ -60,7 +60,19 @@ const team: TeamInfos[] = [
     ],
     qualifications: [
         "Manuelle Lymphdrainage",
-        "Manuelle Therapie in Ausbildung"
+        "Manuelle Therapie"
+    ] 
+},
+{
+    name: "Arthur",
+    image: "arthur",
+    general: [
+        "Sport- und Gymnastiklehrerin (Berufskolleg Waldenburg)",
+        "Physiotherapeutin (Berufskolleg Waldenburg)"
+    ],
+    qualifications: [
+        "Fitnesstrainer A",
+        "Erlebnispädagogik"
     ] 
 },
 {

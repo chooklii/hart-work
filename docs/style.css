@@ -114,6 +114,11 @@ body{
     background-position: 17% 17% !important
 }
 
+.arthur{
+    background-image: url(../static/arthur.jpg);
+    background-position: 17% 17% !important;
+}
+
 .homeImage{
     background-image: url(../static/personaltraining_reifen.jpg);
 }
