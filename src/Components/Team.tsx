@@ -64,11 +64,11 @@ const team: TeamInfos[] = [
     ] 
 },
 {
-    name: "Arthur",
+    name: "Arthur Rannaud",
     image: "arthur",
     general: [
-        "Sport- und Gymnastiklehrerin (Berufskolleg Waldenburg)",
-        "Physiotherapeutin (Berufskolleg Waldenburg)"
+        "Sport- und Gymnastiklehrer (Berufskolleg Waldenburg)",
+        "Physiotherapeut (Berufskolleg Waldenburg)"
     ],
     qualifications: [
         "Fitnesstrainer A",
