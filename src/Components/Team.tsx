@@ -25,7 +25,7 @@ const team: TeamInfos[] = [
             "Bobath (KG-ZNS) (Ibitha)",
             "Manuelle Lymphdrainage (ZML)",
             "Krankengymnastik am Gerät",
-            "Osteopathie B.O. in Ausbildung (Inomt)",
+            "Osteopathie B.O.(Inomt)",
             "Heilpraktiker (EOS)",
             "Manuelle Reflextherapie (Inomt)",
             "Therapeutisches Klettern",
