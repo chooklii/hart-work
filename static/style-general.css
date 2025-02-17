@@ -119,6 +119,11 @@ body{
     background-position: 17% 17% !important;
 }
 
+.carina{
+    background-image: url("./carina.jpeg");
+    
+}
+
 .homeImage{
     background-image: url("./personaltraining_reifen.jpg");
 }
