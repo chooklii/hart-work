@@ -2,7 +2,6 @@
 import React, { useState } from "react"
 import { TopImage } from "../Components"
 import { Carousel } from "antd"
-import ReactPlayer from "react-player"
 
 
 const HomeCarousel = () => {
