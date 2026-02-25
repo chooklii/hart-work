@@ -68,11 +68,15 @@ const team: TeamInfos[] = [
     image: "arthur",
     general: [
         "Sport- und Gymnastiklehrer (Berufskolleg Waldenburg)",
-        "Physiotherapeut (Berufskolleg Waldenburg)"
+        "Physiotherapeut (Berufskolleg Waldenburg)",
     ],
     qualifications: [
         "Fitnesstrainer A",
-        "Erlebnispädagogik"
+        "Erlebnispädagogik",
+        "Manuelle Lymphdrainage (Lymphologic)",
+        "Krankengymnastik am Gerät (Digotor)",
+        "Sportphysiotherapie in der EAP inkl. Tape (Digotor)",
+        "Strength and conditioning coach i.A. (SCC by Oliver Velevski)"
     ] 
 },
 {
